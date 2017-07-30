@@ -19,10 +19,10 @@ namespace Don.Sportsstore.Web.Controllers
             _productService = productService;
         }
 
-        public async Task<ActionResult> Index(GetAllProductsInput input)
+        public async Task<ActionResult> Index(GetAllProductsInput input, int page =1)
         {
 
-            var output = await _productService.GetAll(input);
+            var output = await _productService.GetAll(input, page);
             var model = new IndexViewModel(output.Items)
             {
                 Category = input.Category

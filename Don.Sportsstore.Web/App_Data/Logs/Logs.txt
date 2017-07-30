@@ -1477,3 +1477,64 @@ DEBUG 2017-07-31 01:41:53,931 [46   ] Abp.Web.SignalR.Hubs.AbpCommonHub        -
 DEBUG 2017-07-31 01:42:47,817 [47   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 76dba79a-7d8f-4785-b78c-0b0740e836f7
 DEBUG 2017-07-31 01:42:48,394 [49   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"34ca385b-cb29-4806-8cb5-7438281b1bf7","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-31T01:42:48.394068+03:00","Properties":{}}
 DEBUG 2017-07-31 01:42:48,404 [52   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 34ca385b-cb29-4806-8cb5-7438281b1bf7
+DEBUG 2017-07-31 02:16:47,166 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-31 02:16:47,187 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-07-31 02:16:47,196 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.Web.SportsstoreWebModule, Don.Sportsstore.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 02:16:47,198 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreDataModule, Don.Sportsstore.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 02:16:47,199 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 02:16:47,199 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 02:16:47,199 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 02:16:47,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 02:16:47,200 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 02:16:47,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreCoreModule, Don.Sportsstore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 02:16:47,201 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreApplicationModule, Don.Sportsstore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 02:16:47,202 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 02:16:47,202 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.Api.SportsstoreWebApiModule, Don.Sportsstore.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 02:16:47,202 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 02:16:47,203 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 02:16:47,203 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 02:16:47,203 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 02:16:47,204 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 02:16:47,208 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-07-31 02:16:47,367 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-31 02:16:47,367 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-31 02:16:47,367 [1    ] o.Configuration.LanguageManagementConfig - Converted Sportsstore (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-31 02:16:47,367 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-31 02:16:47,788 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Don.Sportsstore.EntityFramework.SportsstoreDbContext, Don.Sportsstore.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 02:16:49,382 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-07-31 02:16:49,394 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-31 02:16:49,417 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-07-31 02:16:49,419 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Sportsstore
+DEBUG 2017-07-31 02:16:49,421 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-31 02:16:49,554 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-31 02:16:49,637 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-07-31 02:16:49,637 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-07-31 02:16:49,642 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-07-31 02:16:49,643 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Users.Dto.CreateUserInput
+DEBUG 2017-07-31 02:16:49,643 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Users.Dto.UserListDto
+DEBUG 2017-07-31 02:16:49,643 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-07-31 02:16:49,644 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-07-31 02:16:49,644 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Products.Dtos.ProductListDto
+DEBUG 2017-07-31 02:16:49,644 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-07-31 02:16:51,726 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-07-31 02:16:51,727 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-07-31 02:16:51,728 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-07-31 02:16:51,730 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-07-31 02:16:51,731 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Products.IProductService' with service name 'app/productService'.
+DEBUG 2017-07-31 02:17:01,757 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"63912f70-7fdd-49bd-af06-365f1751f748","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-31T02:17:01.7445688+03:00","Properties":{}}
+DEBUG 2017-07-31 02:17:01,819 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 63912f70-7fdd-49bd-af06-365f1751f748
+DEBUG 2017-07-31 02:17:43,558 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 63912f70-7fdd-49bd-af06-365f1751f748
+DEBUG 2017-07-31 02:17:44,100 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"65f4ea9c-4470-4e3f-8e01-eb3b849b2011","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-31T02:17:44.1000265+03:00","Properties":{}}
+DEBUG 2017-07-31 02:17:44,109 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 65f4ea9c-4470-4e3f-8e01-eb3b849b2011
+DEBUG 2017-07-31 02:17:49,055 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 65f4ea9c-4470-4e3f-8e01-eb3b849b2011
+DEBUG 2017-07-31 02:17:49,387 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"790ae81d-086e-40cd-b7ce-cf241f03f0ea","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-31T02:17:49.3878682+03:00","Properties":{}}
+DEBUG 2017-07-31 02:17:49,435 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 790ae81d-086e-40cd-b7ce-cf241f03f0ea
+DEBUG 2017-07-31 02:18:05,446 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 790ae81d-086e-40cd-b7ce-cf241f03f0ea
+DEBUG 2017-07-31 02:18:06,006 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5457d495-b886-4ae2-a9c7-bab3534a7b9d","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-31T02:18:06.0067937+03:00","Properties":{}}
+DEBUG 2017-07-31 02:18:06,016 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 5457d495-b886-4ae2-a9c7-bab3534a7b9d
+DEBUG 2017-07-31 02:19:05,109 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 5457d495-b886-4ae2-a9c7-bab3534a7b9d
+DEBUG 2017-07-31 02:19:05,429 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"27903614-613c-4b5c-adbf-b6552464d8a5","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-31T02:19:05.4299515+03:00","Properties":{}}
+DEBUG 2017-07-31 02:19:05,438 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 27903614-613c-4b5c-adbf-b6552464d8a5
+DEBUG 2017-07-31 02:20:21,803 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 27903614-613c-4b5c-adbf-b6552464d8a5
+DEBUG 2017-07-31 02:20:22,165 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a8c3e21f-68e4-4220-b440-2dc678c360a6","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-31T02:20:22.1654354+03:00","Properties":{}}
+DEBUG 2017-07-31 02:20:22,173 [54   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a8c3e21f-68e4-4220-b440-2dc678c360a6
