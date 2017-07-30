@@ -1,0 +1,29 @@
+﻿@model Don.Sportsstore.Web.Models.Product.IndexViewModel
+
+@{
+    ViewBag.Title = "Products";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>title</h2>
+
+
+<div class="row">
+    <div>
+        <ul class="list-group">
+            
+            @foreach (var product in Model.Products)
+            {
+                <li class="list-group-item">
+                    <p class="list-group-item-heading">@product.Category</p>
+                    <p class="list-group-item-text">@product.Name</p>
+                    <p class="list-group-item-text">@product.Description</p>
+                    <p class="list-group-item-text">@product.Price</p>
+
+                </li>
+            }
+
+        </ul>
+    </div>
+
+</div>

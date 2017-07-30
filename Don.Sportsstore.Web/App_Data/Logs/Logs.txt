@@ -1,0 +1,1479 @@
+DEBUG 2017-07-30 21:33:42,007 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-30 21:33:42,028 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-07-30 21:33:42,036 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.Web.SportsstoreWebModule, Don.Sportsstore.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:33:42,039 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreDataModule, Don.Sportsstore.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:33:42,039 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:33:42,040 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:33:42,040 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:33:42,040 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:33:42,041 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:33:42,041 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreCoreModule, Don.Sportsstore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:33:42,041 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreApplicationModule, Don.Sportsstore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:33:42,041 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:33:42,041 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.Api.SportsstoreWebApiModule, Don.Sportsstore.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:33:42,042 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:33:42,042 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:33:42,042 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:33:42,042 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:33:42,043 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:33:42,047 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-07-30 21:33:42,259 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-30 21:33:42,259 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-30 21:33:42,259 [1    ] o.Configuration.LanguageManagementConfig - Converted Sportsstore (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-30 21:33:42,259 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-30 21:33:42,788 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Don.Sportsstore.EntityFramework.SportsstoreDbContext, Don.Sportsstore.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:33:44,729 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-07-30 21:33:44,741 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-30 21:33:44,749 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-07-30 21:33:44,753 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Sportsstore
+DEBUG 2017-07-30 21:33:44,755 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-30 21:33:44,883 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-30 21:33:44,961 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-07-30 21:33:44,961 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-07-30 21:33:44,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-07-30 21:33:44,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Users.Dto.CreateUserInput
+DEBUG 2017-07-30 21:33:44,964 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Users.Dto.UserListDto
+DEBUG 2017-07-30 21:33:44,965 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-07-30 21:33:44,965 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-07-30 21:33:44,965 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-07-30 21:33:47,155 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-07-30 21:33:47,156 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-07-30 21:33:47,157 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-07-30 21:33:47,159 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-07-30 21:39:12,328 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-30 21:39:12,346 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-07-30 21:39:12,354 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.Web.SportsstoreWebModule, Don.Sportsstore.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:39:12,356 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreDataModule, Don.Sportsstore.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:39:12,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:39:12,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:39:12,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:39:12,357 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:39:12,358 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:39:12,358 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreCoreModule, Don.Sportsstore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:39:12,359 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreApplicationModule, Don.Sportsstore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:39:12,359 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:39:12,359 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.Api.SportsstoreWebApiModule, Don.Sportsstore.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:39:12,359 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:39:12,359 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:39:12,360 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:39:12,360 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:39:12,360 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:39:12,364 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-07-30 21:39:12,561 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-30 21:39:12,561 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-30 21:39:12,561 [1    ] o.Configuration.LanguageManagementConfig - Converted Sportsstore (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-30 21:39:12,561 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-30 21:39:12,970 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Don.Sportsstore.EntityFramework.SportsstoreDbContext, Don.Sportsstore.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:39:14,558 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-07-30 21:39:14,568 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-30 21:39:14,592 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-07-30 21:39:14,595 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Sportsstore
+DEBUG 2017-07-30 21:39:14,596 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-30 21:39:14,720 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-30 21:39:14,796 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-07-30 21:39:14,797 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-07-30 21:39:14,800 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-07-30 21:39:14,800 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Users.Dto.CreateUserInput
+DEBUG 2017-07-30 21:39:14,801 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Users.Dto.UserListDto
+DEBUG 2017-07-30 21:39:14,801 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-07-30 21:39:14,801 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-07-30 21:39:14,801 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-07-30 21:39:16,889 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-07-30 21:39:16,890 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-07-30 21:39:16,891 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-07-30 21:39:16,893 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-07-30 21:40:57,646 [7    ] Abp.BackgroundJobs.BackgroundJobManager  - Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate Don.Sportsstore.EntityFramework.SportsstoreDbContext ---> System.Reflection.TargetInvocationException: Адресат вызова создал исключение. ---> System.Data.SqlClient.SqlException: CREATE DATABASE statement not allowed within multi-statement transaction.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   в System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   в System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   в System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass1a.<CreateDatabaseFromScript>b__19(DbConnection conn)
+   в System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass33.<UsingConnection>b__32()
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   в System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   в System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   в System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   в System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   в System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   в System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   в System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   в System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   в System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   в System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   в System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   в System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   в System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   в System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   в System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   в System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   в System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   в System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   в System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   в System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   в System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   в System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   в Abp.EntityFramework.AbpDbContext.RegisterToChanges()
+   в Abp.Zero.EntityFramework.AbpZeroDbContext`3..ctor(String nameOrConnectionString)
+   в Don.Sportsstore.EntityFramework.SportsstoreDbContext..ctor(String nameOrConnectionString) в D:\Download\Sportsstore\Don.Sportsstore.EntityFramework\EntityFramework\SportsstoreDbContext.cs:строка 29
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   в System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   в Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   в Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   в Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   в Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   в Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   в Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   в Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   в Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   в Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   в Castle.Windsor.WindsorContainer.Resolve(Type service, IDictionary arguments)
+   в Castle.Windsor.WindsorContainer.Resolve(Type service, Object argumentsAsAnonymousType)
+   в Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType)
+   в Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   в Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   в Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide)
+   в Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide)
+   в Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context_callback()
+   в Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_3.InvokeMethodOnTarget()
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context()
+   в Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table_callback()
+   в Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_3.InvokeMethodOnTarget()
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll_callback()
+   в Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_3.InvokeMethodOnTarget()
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll()
+   в Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   в Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   в Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   в Abp.BackgroundJobs.BackgroundJobManager.<DoWork>b__13_0()
+   в System.Threading.Tasks.Task`1.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   в Nito.AsyncEx.AsyncContext.<>c__DisplayClass16_0`1.<Run>b__0(Task`1 t)
+   в System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   в Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   в Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   в Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate Don.Sportsstore.EntityFramework.SportsstoreDbContext ---> System.Reflection.TargetInvocationException: Адресат вызова создал исключение. ---> System.Data.SqlClient.SqlException: CREATE DATABASE statement not allowed within multi-statement transaction.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   в System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   в System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   в System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass1a.<CreateDatabaseFromScript>b__19(DbConnection conn)
+   в System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass33.<UsingConnection>b__32()
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   в System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   в System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   в System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   в System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   в System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   в System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   в System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   в System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   в System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   в System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   в System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   в System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   в System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   в System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   в System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   в System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   в System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   в System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   в System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   в System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   в System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   в System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   в Abp.EntityFramework.AbpDbContext.RegisterToChanges()
+   в Abp.Zero.EntityFramework.AbpZeroDbContext`3..ctor(String nameOrConnectionString)
+   в Don.Sportsstore.EntityFramework.SportsstoreDbContext..ctor(String nameOrConnectionString) в D:\Download\Sportsstore\Don.Sportsstore.EntityFramework\EntityFramework\SportsstoreDbContext.cs:строка 29
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   в System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   в Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   в Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   в Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   в Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   в Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   в Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   в Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   в Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   в Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   в Castle.Windsor.WindsorContainer.Resolve(Type service, IDictionary arguments)
+   в Castle.Windsor.WindsorContainer.Resolve(Type service, Object argumentsAsAnonymousType)
+   в Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType)
+   в Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   в Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   в Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide)
+   в Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide)
+   в Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context_callback()
+   в Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_3.InvokeMethodOnTarget()
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context()
+   в Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table_callback()
+   в Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_3.InvokeMethodOnTarget()
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll_callback()
+   в Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_3.InvokeMethodOnTarget()
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll()
+   в Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   в Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   в Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   в Abp.BackgroundJobs.BackgroundJobManager.<DoWork>b__13_0()
+   в System.Threading.Tasks.Task`1.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   в Nito.AsyncEx.AsyncContext.<>c__DisplayClass16_0`1.<Run>b__0(Task`1 t)
+   в System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   в Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   в Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   в Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+WARN  2017-07-30 21:41:04,095 [8    ] Abp.BackgroundJobs.BackgroundJobManager  - Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate Don.Sportsstore.EntityFramework.SportsstoreDbContext ---> System.Reflection.TargetInvocationException: Адресат вызова создал исключение. ---> System.Data.SqlClient.SqlException: CREATE DATABASE statement not allowed within multi-statement transaction.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   в System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   в System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   в System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass1a.<CreateDatabaseFromScript>b__19(DbConnection conn)
+   в System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass33.<UsingConnection>b__32()
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   в System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   в System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   в System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   в System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   в System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   в System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   в System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   в System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   в System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   в System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   в System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   в System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   в System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   в System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   в System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   в System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   в System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   в System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   в System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   в System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   в System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   в System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   в Abp.EntityFramework.AbpDbContext.RegisterToChanges()
+   в Abp.Zero.EntityFramework.AbpZeroDbContext`3..ctor(String nameOrConnectionString)
+   в Don.Sportsstore.EntityFramework.SportsstoreDbContext..ctor(String nameOrConnectionString) в D:\Download\Sportsstore\Don.Sportsstore.EntityFramework\EntityFramework\SportsstoreDbContext.cs:строка 29
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   в System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   в Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   в Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   в Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   в Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   в Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   в Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   в Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   в Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   в Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   в Castle.Windsor.WindsorContainer.Resolve(Type service, IDictionary arguments)
+   в Castle.Windsor.WindsorContainer.Resolve(Type service, Object argumentsAsAnonymousType)
+   в Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType)
+   в Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   в Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   в Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide)
+   в Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide)
+   в Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context_callback()
+   в Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_3.InvokeMethodOnTarget()
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context()
+   в Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table_callback()
+   в Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_3.InvokeMethodOnTarget()
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll_callback()
+   в Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_3.InvokeMethodOnTarget()
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll()
+   в Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   в Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   в Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   в Abp.BackgroundJobs.BackgroundJobManager.<DoWork>b__13_0()
+   в System.Threading.Tasks.Task`1.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   в Nito.AsyncEx.AsyncContext.<>c__DisplayClass16_0`1.<Run>b__0(Task`1 t)
+   в System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   в Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   в Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   в Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate Don.Sportsstore.EntityFramework.SportsstoreDbContext ---> System.Reflection.TargetInvocationException: Адресат вызова создал исключение. ---> System.Data.SqlClient.SqlException: CREATE DATABASE statement not allowed within multi-statement transaction.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   в System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   в System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   в System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass1a.<CreateDatabaseFromScript>b__19(DbConnection conn)
+   в System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass33.<UsingConnection>b__32()
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   в System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   в System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   в System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   в System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   в System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   в System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   в System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   в System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   в System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   в System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   в System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   в System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   в System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   в System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   в System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   в System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   в System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   в System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   в System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   в System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   в System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   в System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   в Abp.EntityFramework.AbpDbContext.RegisterToChanges()
+   в Abp.Zero.EntityFramework.AbpZeroDbContext`3..ctor(String nameOrConnectionString)
+   в Don.Sportsstore.EntityFramework.SportsstoreDbContext..ctor(String nameOrConnectionString) в D:\Download\Sportsstore\Don.Sportsstore.EntityFramework\EntityFramework\SportsstoreDbContext.cs:строка 29
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   в System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   в Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   в Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   в Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   в Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   в Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   в Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   в Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   в Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   в Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   в Castle.Windsor.WindsorContainer.Resolve(Type service, IDictionary arguments)
+   в Castle.Windsor.WindsorContainer.Resolve(Type service, Object argumentsAsAnonymousType)
+   в Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType)
+   в Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   в Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   в Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide)
+   в Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide)
+   в Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context_callback()
+   в Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_3.InvokeMethodOnTarget()
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context()
+   в Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table_callback()
+   в Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_3.InvokeMethodOnTarget()
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll_callback()
+   в Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_3.InvokeMethodOnTarget()
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll()
+   в Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   в Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   в Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   в Abp.BackgroundJobs.BackgroundJobManager.<DoWork>b__13_0()
+   в System.Threading.Tasks.Task`1.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   в Nito.AsyncEx.AsyncContext.<>c__DisplayClass16_0`1.<Run>b__0(Task`1 t)
+   в System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   в Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   в Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   в Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+WARN  2017-07-30 21:41:16,125 [7    ] Abp.BackgroundJobs.BackgroundJobManager  - Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate Don.Sportsstore.EntityFramework.SportsstoreDbContext ---> System.Reflection.TargetInvocationException: Адресат вызова создал исключение. ---> System.Data.SqlClient.SqlException: CREATE DATABASE statement not allowed within multi-statement transaction.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   в System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   в System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   в System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass1a.<CreateDatabaseFromScript>b__19(DbConnection conn)
+   в System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass33.<UsingConnection>b__32()
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   в System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   в System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   в System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   в System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   в System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   в System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   в System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   в System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   в System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   в System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   в System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   в System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   в System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   в System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   в System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   в System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   в System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   в System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   в System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   в System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   в System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   в System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   в Abp.EntityFramework.AbpDbContext.RegisterToChanges()
+   в Abp.Zero.EntityFramework.AbpZeroDbContext`3..ctor(String nameOrConnectionString)
+   в Don.Sportsstore.EntityFramework.SportsstoreDbContext..ctor(String nameOrConnectionString) в D:\Download\Sportsstore\Don.Sportsstore.EntityFramework\EntityFramework\SportsstoreDbContext.cs:строка 29
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   в System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   в Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   в Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   в Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   в Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   в Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   в Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   в Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   в Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   в Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   в Castle.Windsor.WindsorContainer.Resolve(Type service, IDictionary arguments)
+   в Castle.Windsor.WindsorContainer.Resolve(Type service, Object argumentsAsAnonymousType)
+   в Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType)
+   в Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   в Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   в Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide)
+   в Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide)
+   в Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context_callback()
+   в Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_3.InvokeMethodOnTarget()
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context()
+   в Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table_callback()
+   в Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_3.InvokeMethodOnTarget()
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll_callback()
+   в Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_3.InvokeMethodOnTarget()
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll()
+   в Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   в Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   в Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   в Abp.BackgroundJobs.BackgroundJobManager.<DoWork>b__13_0()
+   в System.Threading.Tasks.Task`1.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   в Nito.AsyncEx.AsyncContext.<>c__DisplayClass16_0`1.<Run>b__0(Task`1 t)
+   в System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   в Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   в Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   в Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+Castle.MicroKernel.ComponentActivator.ComponentActivatorException: ComponentActivator: could not instantiate Don.Sportsstore.EntityFramework.SportsstoreDbContext ---> System.Reflection.TargetInvocationException: Адресат вызова создал исключение. ---> System.Data.SqlClient.SqlException: CREATE DATABASE statement not allowed within multi-statement transaction.
+   в System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   в System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   в System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   в System.Data.SqlClient.SqlCommand.RunExecuteNonQueryTds(String methodName, Boolean async, Int32 timeout, Boolean asyncWrite)
+   в System.Data.SqlClient.SqlCommand.InternalExecuteNonQuery(TaskCompletionSource`1 completion, String methodName, Boolean sendToPipe, Int32 timeout, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry)
+   в System.Data.SqlClient.SqlCommand.ExecuteNonQuery()
+   в System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.<NonQuery>b__0(DbCommand t, DbCommandInterceptionContext`1 c)
+   в System.Data.Entity.Infrastructure.Interception.InternalDispatcher`1.Dispatch[TTarget,TInterceptionContext,TResult](TTarget target, Func`3 operation, TInterceptionContext interceptionContext, Action`3 executing, Action`3 executed)
+   в System.Data.Entity.Infrastructure.Interception.DbCommandDispatcher.NonQuery(DbCommand command, DbCommandInterceptionContext interceptionContext)
+   в System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass1a.<CreateDatabaseFromScript>b__19(DbConnection conn)
+   в System.Data.Entity.SqlServer.SqlProviderServices.<>c__DisplayClass33.<UsingConnection>b__32()
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.<>c__DisplayClass1.<Execute>b__0()
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute[TResult](Func`1 operation)
+   в System.Data.Entity.SqlServer.DefaultSqlExecutionStrategy.Execute(Action operation)
+   в System.Data.Entity.SqlServer.SqlProviderServices.UsingConnection(DbConnection sqlConnection, Action`1 act)
+   в System.Data.Entity.SqlServer.SqlProviderServices.UsingMasterConnection(DbConnection sqlConnection, Action`1 act)
+   в System.Data.Entity.SqlServer.SqlProviderServices.CreateDatabaseFromScript(Nullable`1 commandTimeout, DbConnection sqlConnection, String createDatabaseScript)
+   в System.Data.Entity.SqlServer.SqlProviderServices.DbCreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   в System.Data.Entity.Core.Common.DbProviderServices.CreateDatabase(DbConnection connection, Nullable`1 commandTimeout, StoreItemCollection storeItemCollection)
+   в System.Data.Entity.Core.Objects.ObjectContext.CreateDatabase()
+   в System.Data.Entity.Migrations.Utilities.DatabaseCreator.Create(DbConnection connection)
+   в System.Data.Entity.Migrations.DbMigrator.EnsureDatabaseExists(Action mustSucceedToKeepDatabase)
+   в System.Data.Entity.Migrations.DbMigrator.Update(String targetMigration)
+   в System.Data.Entity.Internal.DatabaseCreator.CreateDatabase(InternalContext internalContext, Func`3 createMigrator, ObjectContext objectContext)
+   в System.Data.Entity.Internal.InternalContext.CreateDatabase(ObjectContext objectContext, DatabaseExistenceState existenceState)
+   в System.Data.Entity.Database.Create(DatabaseExistenceState existenceState)
+   в System.Data.Entity.CreateDatabaseIfNotExists`1.InitializeDatabase(TContext context)
+   в System.Data.Entity.Internal.InternalContext.<>c__DisplayClassf`1.<CreateInitializationAction>b__e()
+   в System.Data.Entity.Internal.InternalContext.PerformInitializationAction(Action action)
+   в System.Data.Entity.Internal.InternalContext.PerformDatabaseInitialization()
+   в System.Data.Entity.Internal.LazyInternalContext.<InitializeDatabase>b__4(InternalContext c)
+   в System.Data.Entity.Internal.RetryAction`1.PerformAction(TInput input)
+   в System.Data.Entity.Internal.LazyInternalContext.InitializeDatabaseAction(Action`1 action)
+   в System.Data.Entity.Internal.LazyInternalContext.InitializeDatabase()
+   в System.Data.Entity.Internal.InternalContext.ForceOSpaceLoadingForKnownEntityTypes()
+   в System.Data.Entity.DbContext.System.Data.Entity.Infrastructure.IObjectContextAdapter.get_ObjectContext()
+   в Abp.EntityFramework.AbpDbContext.RegisterToChanges()
+   в Abp.Zero.EntityFramework.AbpZeroDbContext`3..ctor(String nameOrConnectionString)
+   в Don.Sportsstore.EntityFramework.SportsstoreDbContext..ctor(String nameOrConnectionString) в D:\Download\Sportsstore\Don.Sportsstore.EntityFramework\EntityFramework\SportsstoreDbContext.cs:строка 29
+   --- Конец трассировки внутреннего стека исключений ---
+   в System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   в System.Reflection.RuntimeConstructorInfo.Invoke(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.FastCreateInstance(Type implType, Object[] arguments, ConstructorCandidate constructor)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   --- Конец трассировки внутреннего стека исключений ---
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstanceCore(ConstructorCandidate constructor, Object[] arguments, Type implType)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.CreateInstance(CreationContext context, ConstructorCandidate constructor, Object[] arguments)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.Instantiate(CreationContext context)
+   в Castle.MicroKernel.ComponentActivator.DefaultComponentActivator.InternalCreate(CreationContext context)
+   в Castle.MicroKernel.ComponentActivator.AbstractComponentActivator.Create(CreationContext context, Burden burden)
+   в Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.CreateInstance(CreationContext context, Boolean trackedExternally)
+   в Castle.MicroKernel.Lifestyle.AbstractLifestyleManager.Resolve(CreationContext context, IReleasePolicy releasePolicy)
+   в Castle.MicroKernel.Handlers.DefaultHandler.ResolveCore(CreationContext context, Boolean requiresDecommission, Boolean instanceRequired, Burden& burden)
+   в Castle.MicroKernel.Handlers.DefaultHandler.Resolve(CreationContext context, Boolean instanceRequired)
+   в Castle.MicroKernel.Handlers.AbstractHandler.Resolve(CreationContext context)
+   в Castle.MicroKernel.DefaultKernel.ResolveComponent(IHandler handler, Type service, IDictionary additionalArguments, IReleasePolicy policy)
+   в Castle.MicroKernel.DefaultKernel.Castle.MicroKernel.IKernelInternal.Resolve(Type service, IDictionary arguments, IReleasePolicy policy)
+   в Castle.MicroKernel.DefaultKernel.Resolve(Type service, IDictionary arguments)
+   в Castle.Windsor.WindsorContainer.Resolve(Type service, IDictionary arguments)
+   в Castle.Windsor.WindsorContainer.Resolve(Type service, Object argumentsAsAnonymousType)
+   в Abp.Dependency.IocManager.Resolve(Type type, Object argumentsAsAnonymousType)
+   в Abp.EntityFramework.DefaultDbContextResolver.Resolve[TDbContext](String connectionString)
+   в Abp.EntityFramework.Uow.TransactionScopeEfTransactionStrategy.CreateDbContext[TDbContext](String connectionString, IDbContextResolver dbContextResolver)
+   в Abp.EntityFramework.Uow.EfUnitOfWork.GetOrCreateDbContext[TDbContext](Nullable`1 multiTenancySide)
+   в Abp.EntityFramework.Uow.UnitOfWorkExtensions.GetDbContext[TDbContext](IActiveUnitOfWork unitOfWork, Nullable`1 multiTenancySide)
+   в Abp.EntityFramework.Uow.UnitOfWorkDbContextProvider`1.GetDbContext(Nullable`1 multiTenancySide)
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context_callback()
+   в Castle.Proxies.Invocations.EfRepositoryBase`3_get_Context_3.InvokeMethodOnTarget()
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Context()
+   в Abp.EntityFramework.Repositories.EfRepositoryBase`3.get_Table()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table_callback()
+   в Castle.Proxies.Invocations.EfRepositoryBase`3_get_Table_3.InvokeMethodOnTarget()
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.get_Table()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll_callback()
+   в Castle.Proxies.Invocations.EfRepositoryBase`3_GetAll_3.InvokeMethodOnTarget()
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformSyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Castle.Proxies.EfRepositoryBase`3Proxy_1.GetAll()
+   в Abp.BackgroundJobs.BackgroundJobStore.GetWaitingJobsAsync(Int32 maxResultCount)
+   в Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync_callback(Int32 maxResultCount)
+   в Castle.Proxies.Invocations.BackgroundJobStore_GetWaitingJobsAsync.InvokeMethodOnTarget()
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformAsyncUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.PerformUow(IInvocation invocation, UnitOfWorkOptions options)
+   в Abp.Domain.Uow.UnitOfWorkInterceptor.Intercept(IInvocation invocation)
+   в Castle.DynamicProxy.AbstractInvocation.Proceed()
+   в Castle.Proxies.BackgroundJobStoreProxy.GetWaitingJobsAsync(Int32 maxResultCount)
+   в Abp.BackgroundJobs.BackgroundJobManager.<DoWork>b__13_0()
+   в System.Threading.Tasks.Task`1.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   в Nito.AsyncEx.AsyncContext.<>c__DisplayClass16_0`1.<Run>b__0(Task`1 t)
+   в System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.Synchronous.TaskExtensions.WaitAndUnwrapException[TResult](Task`1 task)
+   в Nito.AsyncEx.AsyncContext.Run[TResult](Func`1 action)
+   в Abp.BackgroundJobs.BackgroundJobManager.DoWork()
+   в Abp.Threading.BackgroundWorkers.PeriodicBackgroundWorkerBase.Timer_Elapsed(Object sender, EventArgs e)
+DEBUG 2017-07-30 21:44:13,618 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-30 21:44:13,792 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-07-30 21:44:13,800 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.Web.SportsstoreWebModule, Don.Sportsstore.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:44:13,802 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreDataModule, Don.Sportsstore.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:44:13,803 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:44:13,803 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:44:13,803 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:44:13,803 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:44:13,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:44:13,804 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreCoreModule, Don.Sportsstore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:44:13,805 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreApplicationModule, Don.Sportsstore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:44:13,805 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:44:13,805 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.Api.SportsstoreWebApiModule, Don.Sportsstore.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:44:13,806 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:44:13,806 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:44:13,806 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:44:13,806 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:44:13,807 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:44:13,810 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-07-30 21:44:14,282 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-30 21:44:14,283 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-30 21:44:14,283 [1    ] o.Configuration.LanguageManagementConfig - Converted Sportsstore (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-30 21:44:14,283 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-30 21:44:14,759 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Don.Sportsstore.EntityFramework.SportsstoreDbContext, Don.Sportsstore.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:44:15,558 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-07-30 21:44:15,567 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-30 21:44:15,588 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-07-30 21:44:15,592 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Sportsstore
+DEBUG 2017-07-30 21:44:15,593 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-30 21:44:15,735 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-30 21:44:15,812 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-07-30 21:44:15,813 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-07-30 21:44:15,817 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-07-30 21:44:15,817 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Users.Dto.CreateUserInput
+DEBUG 2017-07-30 21:44:15,817 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Users.Dto.UserListDto
+DEBUG 2017-07-30 21:44:15,818 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-07-30 21:44:15,818 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-07-30 21:44:15,818 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-07-30 21:44:17,827 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-07-30 21:44:17,829 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-07-30 21:44:17,830 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-07-30 21:44:17,831 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+ERROR 2017-07-30 21:44:25,997 [5    ] ortsstore.Web.Controllers.HomeController - No language defined!
+Abp.AbpException: No language defined!
+   в Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   в Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   в Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   в Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   в Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   в System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   в Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   в Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   в System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   в System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+ERROR 2017-07-30 21:44:56,653 [13   ] ortsstore.Web.Controllers.HomeController - No language defined!
+Abp.AbpException: No language defined!
+   в Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   в Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   в Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   в Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   в Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   в System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   в Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   в Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   в System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   в System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+ERROR 2017-07-30 21:44:57,488 [10   ] ortsstore.Web.Controllers.HomeController - No language defined!
+Abp.AbpException: No language defined!
+   в Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   в Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   в Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   в Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   в Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   в System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   в Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   в Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   в System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   в System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+ERROR 2017-07-30 21:44:57,684 [8    ] ortsstore.Web.Controllers.HomeController - No language defined!
+Abp.AbpException: No language defined!
+   в Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   в Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   в Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   в Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   в Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   в System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   в Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   в Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   в System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   в System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+ERROR 2017-07-30 21:44:57,848 [8    ] ortsstore.Web.Controllers.HomeController - No language defined!
+Abp.AbpException: No language defined!
+   в Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   в Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   в Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   в Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   в Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   в System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   в Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   в Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   в System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   в System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+ERROR 2017-07-30 21:44:58,013 [9    ] ortsstore.Web.Controllers.HomeController - No language defined!
+Abp.AbpException: No language defined!
+   в Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   в Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   в Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   в Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   в Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   в System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   в Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   в Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   в System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   в System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+ERROR 2017-07-30 21:44:58,152 [5    ] ortsstore.Web.Controllers.HomeController - No language defined!
+Abp.AbpException: No language defined!
+   в Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   в Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   в Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   в Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   в Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   в System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   в Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   в Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   в System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   в System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+ERROR 2017-07-30 21:44:58,314 [5    ] ortsstore.Web.Controllers.HomeController - No language defined!
+Abp.AbpException: No language defined!
+   в Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   в Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   в Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   в Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   в Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   в System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   в Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   в Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   в System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   в System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+ERROR 2017-07-30 21:44:58,453 [7    ] ortsstore.Web.Controllers.HomeController - No language defined!
+Abp.AbpException: No language defined!
+   в Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   в Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   в Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   в Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   в Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   в System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   в Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   в Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   в System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   в System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+ERROR 2017-07-30 21:44:58,622 [7    ] ortsstore.Web.Controllers.HomeController - No language defined!
+Abp.AbpException: No language defined!
+   в Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   в Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   в Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   в Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   в Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   в System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   в Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   в Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   в System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   в System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+DEBUG 2017-07-30 21:48:46,286 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-30 21:48:46,466 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-07-30 21:48:46,474 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.Web.SportsstoreWebModule, Don.Sportsstore.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:48:46,477 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreDataModule, Don.Sportsstore.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:48:46,477 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:48:46,477 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:48:46,477 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:48:46,478 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:48:46,478 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:48:46,479 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreCoreModule, Don.Sportsstore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:48:46,479 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreApplicationModule, Don.Sportsstore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:48:46,480 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:48:46,480 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.Api.SportsstoreWebApiModule, Don.Sportsstore.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:48:46,480 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:48:46,480 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:48:46,481 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:48:46,481 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:48:46,481 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:48:46,485 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-07-30 21:48:46,958 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-30 21:48:46,958 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-30 21:48:46,958 [1    ] o.Configuration.LanguageManagementConfig - Converted Sportsstore (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-30 21:48:46,958 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-30 21:48:47,413 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Don.Sportsstore.EntityFramework.SportsstoreDbContext, Don.Sportsstore.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:48:48,244 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-07-30 21:48:48,253 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-30 21:48:48,277 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-07-30 21:48:48,279 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Sportsstore
+DEBUG 2017-07-30 21:48:48,281 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-30 21:48:48,401 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-30 21:48:48,488 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-07-30 21:48:48,488 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-07-30 21:48:48,492 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-07-30 21:48:48,492 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Users.Dto.CreateUserInput
+DEBUG 2017-07-30 21:48:48,493 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Users.Dto.UserListDto
+DEBUG 2017-07-30 21:48:48,493 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-07-30 21:48:48,493 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-07-30 21:48:48,493 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-07-30 21:48:50,635 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-07-30 21:48:50,636 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-07-30 21:48:50,638 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-07-30 21:48:50,639 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+ERROR 2017-07-30 21:48:53,692 [5    ] ortsstore.Web.Controllers.HomeController - No language defined!
+Abp.AbpException: No language defined!
+   в Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   в Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   в Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   в Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   в Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   в System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   в Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   в Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   в System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   в System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+DEBUG 2017-07-30 21:49:41,934 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-30 21:49:41,952 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-07-30 21:49:41,960 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.Web.SportsstoreWebModule, Don.Sportsstore.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:49:41,963 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreDataModule, Don.Sportsstore.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:49:41,963 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:49:41,963 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:49:41,964 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:49:41,964 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:49:41,964 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:49:41,965 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreCoreModule, Don.Sportsstore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:49:41,965 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreApplicationModule, Don.Sportsstore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:49:41,965 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:49:41,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.Api.SportsstoreWebApiModule, Don.Sportsstore.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:49:41,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:49:41,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:49:41,966 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:49:41,967 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:49:41,967 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:49:41,971 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-07-30 21:49:42,129 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-30 21:49:42,129 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-30 21:49:42,129 [1    ] o.Configuration.LanguageManagementConfig - Converted Sportsstore (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-30 21:49:42,129 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-30 21:49:42,570 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Don.Sportsstore.EntityFramework.SportsstoreDbContext, Don.Sportsstore.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:49:44,292 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-07-30 21:49:44,301 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-30 21:49:44,324 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-07-30 21:49:44,326 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Sportsstore
+DEBUG 2017-07-30 21:49:44,327 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-30 21:49:44,452 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-30 21:49:44,532 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-07-30 21:49:44,532 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-07-30 21:49:44,536 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-07-30 21:49:44,536 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Users.Dto.CreateUserInput
+DEBUG 2017-07-30 21:49:44,537 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Users.Dto.UserListDto
+DEBUG 2017-07-30 21:49:44,537 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-07-30 21:49:44,537 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-07-30 21:49:44,537 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-07-30 21:49:46,741 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-07-30 21:49:46,742 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-07-30 21:49:46,743 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-07-30 21:49:46,745 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+ERROR 2017-07-30 21:49:48,701 [5    ] ortsstore.Web.Controllers.HomeController - No language defined!
+Abp.AbpException: No language defined!
+   в Abp.Localization.MultiTenantLocalizationDictionaryProvider.GetDefaultDictionary()
+   в Abp.Localization.MultiTenantLocalizationDictionaryProvider.get_DefaultDictionary()
+   в Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetStringOrNull(String name, CultureInfo culture, Boolean tryDefaults)
+   в Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource.GetString(String name)
+   в Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   в System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   в Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   в Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+   в System.Web.Mvc.ControllerActionInvoker.InvokeAuthorizationFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor)
+   в System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+DEBUG 2017-07-30 21:53:22,687 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-30 21:53:22,878 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-07-30 21:53:22,886 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.Web.SportsstoreWebModule, Don.Sportsstore.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:53:22,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreDataModule, Don.Sportsstore.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:53:22,888 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:53:22,889 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:53:22,889 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:53:22,889 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:53:22,890 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:53:22,890 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreCoreModule, Don.Sportsstore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:53:22,890 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreApplicationModule, Don.Sportsstore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:53:22,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:53:22,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.Api.SportsstoreWebApiModule, Don.Sportsstore.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:53:22,891 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:53:22,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:53:22,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:53:22,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:53:22,892 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:53:22,896 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-07-30 21:53:23,330 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-30 21:53:23,330 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-30 21:53:23,330 [1    ] o.Configuration.LanguageManagementConfig - Converted Sportsstore (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-30 21:53:23,330 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-30 21:53:23,827 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Don.Sportsstore.EntityFramework.SportsstoreDbContext, Don.Sportsstore.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-30 21:53:24,657 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-07-30 21:53:24,666 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-30 21:53:24,672 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-07-30 21:53:24,675 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Sportsstore
+DEBUG 2017-07-30 21:53:24,677 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-30 21:53:24,794 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-30 21:53:24,886 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 7 classes define auto mapping attributes
+DEBUG 2017-07-30 21:53:24,886 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-07-30 21:53:24,890 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-07-30 21:53:24,891 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Users.Dto.CreateUserInput
+DEBUG 2017-07-30 21:53:24,891 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Users.Dto.UserListDto
+DEBUG 2017-07-30 21:53:24,891 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-07-30 21:53:24,891 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-07-30 21:53:24,892 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-07-30 21:53:27,008 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-07-30 21:53:27,010 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-07-30 21:53:27,011 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-07-30 21:53:27,012 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+WARN  2017-07-30 21:53:30,291 [5    ] Abp.Logging.LogHelper                    - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   в Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   в System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   в Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   в Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   в Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.AsyncContext.<>c__DisplayClass15_0.<Run>b__0(Task t)
+   в System.Threading.Tasks.ContinuationTaskFromTask.InnerInvoke()
+   в System.Threading.Tasks.Task.Execute()
+--- Конец трассировка стека из предыдущего расположения, где возникло исключение ---
+   в System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   в System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   в Nito.AsyncEx.AsyncContext.Run(Func`1 action)
+   в Abp.Authorization.AuthorizationHelperExtensions.Authorize(IAuthorizationHelper authorizationHelper, MethodInfo methodInfo)
+   в Abp.Web.Mvc.Authorization.AbpMvcAuthorizeFilter.OnAuthorization(AuthorizationContext filterContext)
+DEBUG 2017-07-30 21:53:39,377 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d5615d06-0986-4399-b23a-e733992df172","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2017-07-30T21:53:39.3679367+03:00","Properties":{}}
+DEBUG 2017-07-30 21:53:39,448 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d5615d06-0986-4399-b23a-e733992df172
+WARN  2017-07-30 22:05:09,192 [49   ] sstore.Web.Controllers.AccountController - Method arguments are not valid! See ValidationErrors for details.
+Abp.Runtime.Validation.AbpValidationException: Method arguments are not valid! See ValidationErrors for details.
+   в Abp.Runtime.Validation.Interception.MethodInvocationValidator.Validate()
+   в Abp.Web.Mvc.Validation.AbpMvcValidationFilter.OnActionExecuting(ActionExecutingContext filterContext)
+   в System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   в System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   в System.Web.Mvc.Async.AsyncControllerActionInvoker.AsyncInvocationWithFilters.InvokeActionMethodFilterAsynchronouslyRecursive(Int32 filterIndex)
+   в System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass33.<BeginInvokeActionMethodWithFilters>b__31(AsyncCallback asyncCallback, Object asyncState)
+   в System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResult`1.CallBeginDelegate(AsyncCallback callback, Object callbackState)
+   в System.Web.Mvc.Async.AsyncResultWrapper.WrappedAsyncResultBase`1.Begin(AsyncCallback callback, Object state, Int32 timeout)
+   в System.Web.Mvc.Async.AsyncControllerActionInvoker.BeginInvokeActionMethodWithFilters(ControllerContext controllerContext, IList`1 filters, ActionDescriptor actionDescriptor, IDictionary`2 parameters, AsyncCallback callback, Object state)
+   в System.Web.Mvc.Async.AsyncControllerActionInvoker.<>c__DisplayClass21.<BeginInvokeAction>b__19(AsyncCallback asyncCallback, Object asyncState)
+WARN  2017-07-30 22:05:09,194 [49   ] sstore.Web.Controllers.AccountController - There are 2 validation errors:
+WARN  2017-07-30 22:05:09,194 [49   ] sstore.Web.Controllers.AccountController - Требуется поле UsernameOrEmailAddress. (UsernameOrEmailAddress)
+WARN  2017-07-30 22:05:09,194 [49   ] sstore.Web.Controllers.AccountController - Требуется поле Password. (Password)
+DEBUG 2017-07-30 22:06:34,399 [47   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f84fb7dd-e7ae-4527-a4ec-9da265f5e8d1","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-30T22:06:34.3990241+03:00","Properties":{}}
+DEBUG 2017-07-30 22:06:34,411 [46   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f84fb7dd-e7ae-4527-a4ec-9da265f5e8d1
+DEBUG 2017-07-30 22:07:04,676 [47   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d5615d06-0986-4399-b23a-e733992df172
+DEBUG 2017-07-31 01:10:43,374 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-31 01:10:43,392 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-07-31 01:10:43,400 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.Web.SportsstoreWebModule, Don.Sportsstore.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:10:43,403 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreDataModule, Don.Sportsstore.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:10:43,403 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:10:43,403 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:10:43,404 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:10:43,404 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:10:43,405 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:10:43,405 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreCoreModule, Don.Sportsstore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:10:43,405 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreApplicationModule, Don.Sportsstore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:10:43,406 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:10:43,406 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.Api.SportsstoreWebApiModule, Don.Sportsstore.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:10:43,406 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:10:43,406 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:10:43,407 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:10:43,407 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:10:43,407 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:10:43,411 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-07-31 01:10:43,578 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-31 01:10:43,579 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-31 01:10:43,579 [1    ] o.Configuration.LanguageManagementConfig - Converted Sportsstore (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-31 01:10:43,579 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-31 01:10:44,007 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Don.Sportsstore.EntityFramework.SportsstoreDbContext, Don.Sportsstore.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:10:45,642 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-07-31 01:10:45,653 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-31 01:10:45,662 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-07-31 01:10:45,665 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Sportsstore
+DEBUG 2017-07-31 01:10:45,680 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-31 01:10:45,802 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-31 01:10:45,884 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-07-31 01:10:45,884 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-07-31 01:10:45,888 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-07-31 01:10:45,888 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Users.Dto.CreateUserInput
+DEBUG 2017-07-31 01:10:45,888 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Users.Dto.UserListDto
+DEBUG 2017-07-31 01:10:45,888 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-07-31 01:10:45,889 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-07-31 01:10:45,889 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Products.Dtos.ProductListDto
+DEBUG 2017-07-31 01:10:45,889 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-07-31 01:10:47,987 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-07-31 01:10:47,989 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-07-31 01:10:47,990 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-07-31 01:10:47,992 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-07-31 01:10:47,994 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Products.IProductService' with service name 'app/productService'.
+DEBUG 2017-07-31 01:10:58,347 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"11eb3d98-5a35-433c-aeb9-c3c725f9c168","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-31T01:10:58.3348413+03:00","Properties":{}}
+DEBUG 2017-07-31 01:10:58,432 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 11eb3d98-5a35-433c-aeb9-c3c725f9c168
+DEBUG 2017-07-31 01:35:17,984 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-31 01:35:18,178 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-07-31 01:35:18,187 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.Web.SportsstoreWebModule, Don.Sportsstore.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:35:18,189 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreDataModule, Don.Sportsstore.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:35:18,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:35:18,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:35:18,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:35:18,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:35:18,191 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:35:18,191 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreCoreModule, Don.Sportsstore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:35:18,192 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreApplicationModule, Don.Sportsstore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:35:18,192 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:35:18,192 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.Api.SportsstoreWebApiModule, Don.Sportsstore.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:35:18,192 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:35:18,193 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:35:18,193 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:35:18,193 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:35:18,193 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:35:18,197 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-07-31 01:35:19,191 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-31 01:35:19,191 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-31 01:35:19,191 [1    ] o.Configuration.LanguageManagementConfig - Converted Sportsstore (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-31 01:35:19,191 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-31 01:35:19,665 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Don.Sportsstore.EntityFramework.SportsstoreDbContext, Don.Sportsstore.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-31 01:35:20,509 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-07-31 01:35:20,519 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-31 01:35:20,539 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-07-31 01:35:20,542 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Sportsstore
+DEBUG 2017-07-31 01:35:20,543 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-31 01:35:20,686 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-31 01:35:20,768 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-07-31 01:35:20,768 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-07-31 01:35:20,772 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-07-31 01:35:20,772 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Users.Dto.CreateUserInput
+DEBUG 2017-07-31 01:35:20,773 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Users.Dto.UserListDto
+DEBUG 2017-07-31 01:35:20,773 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-07-31 01:35:20,773 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-07-31 01:35:20,773 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Products.Dtos.ProductListDto
+DEBUG 2017-07-31 01:35:20,773 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-07-31 01:35:22,942 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-07-31 01:35:22,943 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-07-31 01:35:22,945 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-07-31 01:35:22,946 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-07-31 01:35:22,948 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Products.IProductService' with service name 'app/productService'.
+DEBUG 2017-07-31 01:35:31,929 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"6b2e42eb-48ea-4a29-9d17-cfb7c801573a","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-31T01:35:31.9212701+03:00","Properties":{}}
+DEBUG 2017-07-31 01:35:31,990 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 6b2e42eb-48ea-4a29-9d17-cfb7c801573a
+DEBUG 2017-07-31 01:41:28,038 [52   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 6b2e42eb-48ea-4a29-9d17-cfb7c801573a
+DEBUG 2017-07-31 01:41:28,710 [54   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"38787891-4f62-43ee-8c09-d1780dd46f33","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-31T01:41:28.7102682+03:00","Properties":{}}
+DEBUG 2017-07-31 01:41:28,723 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 38787891-4f62-43ee-8c09-d1780dd46f33
+DEBUG 2017-07-31 01:41:53,338 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 38787891-4f62-43ee-8c09-d1780dd46f33
+DEBUG 2017-07-31 01:41:53,914 [51   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"76dba79a-7d8f-4785-b78c-0b0740e836f7","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-31T01:41:53.9145366+03:00","Properties":{}}
+DEBUG 2017-07-31 01:41:53,931 [46   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 76dba79a-7d8f-4785-b78c-0b0740e836f7
+DEBUG 2017-07-31 01:42:47,817 [47   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 76dba79a-7d8f-4785-b78c-0b0740e836f7
+DEBUG 2017-07-31 01:42:48,394 [49   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"34ca385b-cb29-4806-8cb5-7438281b1bf7","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-07-31T01:42:48.394068+03:00","Properties":{}}
+DEBUG 2017-07-31 01:42:48,404 [52   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 34ca385b-cb29-4806-8cb5-7438281b1bf7
