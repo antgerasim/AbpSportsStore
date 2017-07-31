@@ -46,7 +46,15 @@ namespace Don.Sportsstore.Web
                         url: "About",
                         icon: "fa fa-info"
                         )
-                );
+                ).AddItem(
+                    new MenuItemDefinition(
+                        "Products",
+                        L("Products"),
+                        url: "Product",
+                        icon: "fa fa-info"
+                    )
+                )
+                ;
         }
 
         private static ILocalizableString L(string name)

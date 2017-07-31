@@ -7,7 +7,9 @@ namespace Don.Sportsstore.Products
 {
     public interface IProductService : IApplicationService
     {
-        Task<ListResultDto<ProductListDto>> GetAll(GetAllProductsInput input, int page);
+        //Task<ListResultDto<ProductListDto>> GetAll(GetAllProductsInput input, int page);
+        Task<PagedResultDto<ProductListDto>> GetAll(GetAllProductsInput input);
+
 
         Task Create(CreateProductInput input);
     }
