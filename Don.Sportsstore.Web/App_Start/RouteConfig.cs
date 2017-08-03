@@ -1,4 +1,5 @@
-﻿using System.Web.Http;
+﻿using System.Configuration;
+using System.Web.Http;
 using System.Web.Mvc;
 using System.Web.Routing;
 
@@ -17,12 +18,35 @@ namespace Don.Sportsstore.Web
                 defaults: new {id = RouteParameter.Optional}
             );
 
-  /*          routes.MapRoute(
-                name: null,
-                url: "Product/Page{page}",
-                defaults: new {Controller = "Product", action = "Index"}
+            routes.MapRoute(null,
+                "",
+                new
+                {
+                    controller = "Product",
+                    action = "List",
+                    category = (string)null,
+                    page = 1
+                }
             );
-*/
+
+            routes.MapRoute(null,
+                "Page{page}",
+                new { controller = "Product", action = "List", category = (string)null },
+                new { page = @"\d+" }
+            );
+
+/*            routes.MapRoute(
+                name: null,
+                url: "Product/List/SkipCount{page}",
+                defaults: new {Controller = "Product", action = "List" }
+            );*/
+
+            /*          routes.MapRoute(
+                          name: null,
+                          url: "SkipCount{page}",
+                          defaults: new {Controller = "Product", action = "List"}
+                      );*/
+
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",

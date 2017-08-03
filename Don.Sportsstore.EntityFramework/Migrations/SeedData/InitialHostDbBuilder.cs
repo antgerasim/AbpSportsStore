@@ -20,6 +20,7 @@ namespace Don.Sportsstore.Migrations.SeedData
             new DefaultLanguagesCreator(_context).Create();
             new HostRoleAndUserCreator(_context).Create();
             new DefaultSettingsCreator(_context).Create();
+            new DefaultProductCreator(_context).Create(); 
         }
     }
 }

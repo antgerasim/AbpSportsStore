@@ -38,6 +38,28 @@ namespace Don.Sportsstore.Products
             return retVal;
         }
 
+        public PagedResultDto<ProductListDto> GetAllSync(GetAllProductsInput input)
+        {
+           // input.SkipCount = input.Page;
+
+            var totalCount = _productRepository.GetAll().Count();
+            //var totalCount2 = await _productRepository.GetAllListAsync();
+
+            var products =  _productRepository
+                .GetAll()
+                // .Where(p => p.Category == input.Category)
+                .OrderBy(p => p.Category)
+                .Skip((input.SkipCount - 1) * _pageSize)
+                .Take(input.MaxResultCount)
+                //.ToListAsync();
+                .ToList();
+
+            var mappedProducts = ObjectMapper.Map<List<ProductListDto>>(products);
+            var retVal = new PagedResultDto<ProductListDto>(totalCount, mappedProducts);
+
+            return retVal;
+        }
+
         public Task Create(CreateProductInput input)
         {
             throw new System.NotImplementedException();

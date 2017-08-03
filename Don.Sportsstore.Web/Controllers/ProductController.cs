@@ -13,24 +13,23 @@ namespace Don.Sportsstore.Web.Controllers
     public class ProductController : SportsstoreControllerBase
     {
         private readonly IProductService _productService;
-        //public int PageSize = 4;
-
 
         public ProductController(IProductService productService)
         {
             _productService = productService;
         }
 
-        public async Task<ActionResult> Index(GetAllProductsInput input)
+        public ActionResult Index(GetAllProductsInput input)
         {
-            var currentPage = input.SkipCount == 0 ? 1 : input.SkipCount;
-            input.SkipCount = currentPage;
+            return View();
+        }
 
-            var output = await _productService.GetAll(input);
-
-            var pagingInfo = new PagingInfo(currentPage, input.MaxResultCount, output.TotalCount);
-            var model = new ProductViewModel(output.Items, pagingInfo);
-
+        public ActionResult List(GetAllProductsInput input, int page)
+        {
+            input.SkipCount = page;
+            var output = _productService.GetAllSync(input);
+            var pagingInfo = new PagingInfo(input.SkipCount, input.MaxResultCount, output.TotalCount);
+            var model = new ProductListViewModel(output.Items, pagingInfo);
             return View(model);
         }
     }

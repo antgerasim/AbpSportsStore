@@ -28,10 +28,12 @@ namespace Don.Sportsstore.Migrations
                 //Default tenant seed (in host database).
                 new DefaultTenantCreator(context).Create();
                 new TenantRoleAndUserBuilder(context, 1).Create();
+                new DefaultProductCreator(context).Create();
             }
             else
             {
                 //You can add seed for tenant databases and use Tenant property...
+                new DefaultProductCreator(context).Create();
             }
 
             context.SaveChanges();

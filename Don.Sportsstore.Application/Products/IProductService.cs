@@ -9,6 +9,7 @@ namespace Don.Sportsstore.Products
     {
         //Task<ListResultDto<ProductListDto>> GetAll(GetAllProductsInput input, int page);
         Task<PagedResultDto<ProductListDto>> GetAll(GetAllProductsInput input);
+        PagedResultDto<ProductListDto> GetAllSync(GetAllProductsInput input);
 
 
         Task Create(CreateProductInput input);

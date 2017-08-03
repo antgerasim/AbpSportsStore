@@ -50,7 +50,7 @@ namespace Don.Sportsstore.Web
                     new MenuItemDefinition(
                         "Products",
                         L("Products"),
-                        url: "Product",
+                        url: "",
                         icon: "fa fa-info"
                     )
                 )

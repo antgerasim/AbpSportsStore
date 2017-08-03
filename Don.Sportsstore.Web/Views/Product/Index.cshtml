@@ -1,34 +1,16 @@
-﻿@using Don.Sportsstore.Web.HtmlHelpers
-@model Don.Sportsstore.Web.Models.Product.ProductViewModel
+﻿
 
 @{
     ViewBag.Title = "Products";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h2>title</h2>
+<h2>@ViewBag.Title</h2>
 
 
 <div class="row">
-    <div>
-        <ul class="list-group">
-
-            @foreach (var product in Model.Products)
-            {
-                <li class="list-group-item">
-                    <p class="list-group-item-heading">@product.Category</p>
-                    <p class="list-group-item-text">@product.Name</p>
-                    <p class="list-group-item-text">@product.Description</p>
-                    <p class="list-group-item-text">@product.Price</p>
-
-                </li>
-            }
-
-        </ul>
-    </div>
+    <p>This is our Products Page </p>
+    <p>@Html.Action("List", "Product")</p>
 
 </div>
 
-<div class="row">
-    @Html.PageLinks(Model.PagingInfo, x => Url.Action("Index", new {SkipCount = x}))
-</div>
