@@ -1744,3 +1744,241 @@ DEBUG 2017-08-04 03:57:38,592 [178  ] Abp.Web.SignalR.Hubs.AbpCommonHub        -
 WARN  2017-08-04 03:57:38,657 [102  ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
 DEBUG 2017-08-04 03:57:38,751 [162  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a97d8cf2-03d7-4693-a811-ec6eb6f410c3","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T03:57:38.7510354+03:00","Properties":{}}
 DEBUG 2017-08-04 03:57:38,755 [102  ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a97d8cf2-03d7-4693-a811-ec6eb6f410c3
+DEBUG 2017-08-04 04:05:32,471 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-04 04:05:32,490 [1    ] Abp.Modules.AbpModuleManager             - Found 16 ABP modules in total.
+DEBUG 2017-08-04 04:05:32,499 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.Web.SportsstoreWebModule, Don.Sportsstore.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-04 04:05:32,501 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreDataModule, Don.Sportsstore.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-04 04:05:32,502 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-04 04:05:32,502 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-04 04:05:32,502 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.0.1.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-04 04:05:32,502 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-04 04:05:32,503 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-04 04:05:32,503 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreCoreModule, Don.Sportsstore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-04 04:05:32,503 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreApplicationModule, Don.Sportsstore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-04 04:05:32,504 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-04 04:05:32,504 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.Api.SportsstoreWebApiModule, Don.Sportsstore.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-04 04:05:32,504 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-04 04:05:32,504 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-04 04:05:32,505 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-04 04:05:32,505 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-04 04:05:32,505 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.0.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-04 04:05:32,509 [1    ] Abp.Modules.AbpModuleManager             - 16 modules loaded.
+DEBUG 2017-08-04 04:05:32,676 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-08-04 04:05:32,676 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-08-04 04:05:32,676 [1    ] o.Configuration.LanguageManagementConfig - Converted Sportsstore (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-08-04 04:05:32,676 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-08-04 04:05:33,098 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Don.Sportsstore.EntityFramework.SportsstoreDbContext, Don.Sportsstore.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-04 04:05:34,678 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-08-04 04:05:34,688 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-04 04:05:34,708 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-08-04 04:05:34,711 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Sportsstore
+DEBUG 2017-08-04 04:05:34,712 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-04 04:05:34,827 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-04 04:05:34,912 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-08-04 04:05:34,912 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-08-04 04:05:34,916 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-08-04 04:05:34,916 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Users.Dto.CreateUserInput
+DEBUG 2017-08-04 04:05:34,916 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Users.Dto.UserListDto
+DEBUG 2017-08-04 04:05:34,916 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-08-04 04:05:34,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-08-04 04:05:34,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Products.Dtos.ProductListDto
+DEBUG 2017-08-04 04:05:34,917 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-08-04 04:05:36,998 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-08-04 04:05:36,999 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-08-04 04:05:37,000 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-08-04 04:05:37,002 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-08-04 04:05:37,003 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Products.IProductService' with service name 'app/productService'.
+WARN  2017-08-04 04:05:45,095 [6    ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+WARN  2017-08-04 04:05:46,566 [8    ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:05:47,123 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"585fbfc0-695a-4441-a1ff-b86574d2a67d","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:05:47.1136501+03:00","Properties":{}}
+DEBUG 2017-08-04 04:05:47,201 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 585fbfc0-695a-4441-a1ff-b86574d2a67d
+WARN  2017-08-04 04:05:56,509 [13   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:05:56,575 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 585fbfc0-695a-4441-a1ff-b86574d2a67d
+WARN  2017-08-04 04:05:56,635 [8    ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:05:56,924 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ac1ec46b-4842-411d-a47e-599e45161f15","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:05:56.9246529+03:00","Properties":{}}
+DEBUG 2017-08-04 04:05:56,933 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ac1ec46b-4842-411d-a47e-599e45161f15
+WARN  2017-08-04 04:05:58,011 [9    ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:05:58,071 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ac1ec46b-4842-411d-a47e-599e45161f15
+WARN  2017-08-04 04:05:58,131 [9    ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:05:58,371 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a9471436-0c5f-46db-ac3e-0edecf09c386","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:05:58.3710109+03:00","Properties":{}}
+DEBUG 2017-08-04 04:05:58,379 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a9471436-0c5f-46db-ac3e-0edecf09c386
+WARN  2017-08-04 04:05:59,878 [8    ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:05:59,933 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a9471436-0c5f-46db-ac3e-0edecf09c386
+WARN  2017-08-04 04:05:59,998 [8    ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:06:00,255 [11   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a19b3e92-6504-4a61-98c6-0d57256ee68f","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:06:00.2558633+03:00","Properties":{}}
+DEBUG 2017-08-04 04:06:00,269 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a19b3e92-6504-4a61-98c6-0d57256ee68f
+WARN  2017-08-04 04:06:04,881 [11   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:06:04,937 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a19b3e92-6504-4a61-98c6-0d57256ee68f
+WARN  2017-08-04 04:06:04,999 [8    ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:06:05,255 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b6afe78f-72c3-4df7-929b-151b7543a1bf","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:06:05.2551176+03:00","Properties":{}}
+DEBUG 2017-08-04 04:06:05,268 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b6afe78f-72c3-4df7-929b-151b7543a1bf
+WARN  2017-08-04 04:06:06,172 [8    ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:06:06,226 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b6afe78f-72c3-4df7-929b-151b7543a1bf
+WARN  2017-08-04 04:06:06,297 [8    ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:06:06,529 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ceb0d7e5-91a2-4976-9c45-e3b3074973e5","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:06:06.529593+03:00","Properties":{}}
+DEBUG 2017-08-04 04:06:06,537 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ceb0d7e5-91a2-4976-9c45-e3b3074973e5
+WARN  2017-08-04 04:06:07,901 [6    ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:06:07,952 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ceb0d7e5-91a2-4976-9c45-e3b3074973e5
+WARN  2017-08-04 04:06:08,022 [8    ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:06:08,258 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b3cfa736-3911-429f-b0b5-9c8087fb9b1a","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:06:08.2581891+03:00","Properties":{}}
+DEBUG 2017-08-04 04:06:08,273 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b3cfa736-3911-429f-b0b5-9c8087fb9b1a
+WARN  2017-08-04 04:07:11,021 [10   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:07:11,078 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b3cfa736-3911-429f-b0b5-9c8087fb9b1a
+WARN  2017-08-04 04:07:11,482 [19   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:07:11,707 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5d2d228b-f568-4146-9af7-85ca7da7ad98","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:07:11.7074258+03:00","Properties":{}}
+DEBUG 2017-08-04 04:07:11,722 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 5d2d228b-f568-4146-9af7-85ca7da7ad98
+WARN  2017-08-04 04:07:34,511 [46   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:07:34,564 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 5d2d228b-f568-4146-9af7-85ca7da7ad98
+WARN  2017-08-04 04:07:34,627 [12   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:07:34,895 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"6209113f-7575-4626-a049-4fdaaec18504","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:07:34.895028+03:00","Properties":{}}
+DEBUG 2017-08-04 04:07:34,903 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 6209113f-7575-4626-a049-4fdaaec18504
+WARN  2017-08-04 04:07:36,188 [13   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:07:36,247 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 6209113f-7575-4626-a049-4fdaaec18504
+WARN  2017-08-04 04:07:36,312 [12   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:07:36,566 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ec8ca4d4-dae3-42e1-a279-2ec9e15a6979","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:07:36.5660044+03:00","Properties":{}}
+DEBUG 2017-08-04 04:07:36,574 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ec8ca4d4-dae3-42e1-a279-2ec9e15a6979
+WARN  2017-08-04 04:07:37,914 [27   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:07:37,967 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ec8ca4d4-dae3-42e1-a279-2ec9e15a6979
+WARN  2017-08-04 04:07:38,030 [12   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:07:38,274 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"be877cb4-7dca-4e22-b64f-64a158f6600f","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:07:38.2740926+03:00","Properties":{}}
+DEBUG 2017-08-04 04:07:38,284 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: be877cb4-7dca-4e22-b64f-64a158f6600f
+WARN  2017-08-04 04:07:39,914 [10   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:07:39,969 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: be877cb4-7dca-4e22-b64f-64a158f6600f
+WARN  2017-08-04 04:07:40,052 [12   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:07:40,290 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8a8cf9a5-29c1-47a1-85a7-3c468ab2c52f","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:07:40.2907875+03:00","Properties":{}}
+DEBUG 2017-08-04 04:07:40,303 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8a8cf9a5-29c1-47a1-85a7-3c468ab2c52f
+WARN  2017-08-04 04:07:53,170 [51   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:07:53,225 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 8a8cf9a5-29c1-47a1-85a7-3c468ab2c52f
+WARN  2017-08-04 04:07:53,500 [11   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:07:53,790 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"d9e799a5-2094-48d4-a2c6-2b27d9506996","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:07:53.7904389+03:00","Properties":{}}
+DEBUG 2017-08-04 04:07:53,804 [48   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: d9e799a5-2094-48d4-a2c6-2b27d9506996
+WARN  2017-08-04 04:07:55,425 [27   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:07:55,485 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: d9e799a5-2094-48d4-a2c6-2b27d9506996
+WARN  2017-08-04 04:07:55,551 [12   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:07:55,801 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"90cbe959-1262-407b-8d3b-d3cc1961ee9c","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:07:55.8012753+03:00","Properties":{}}
+DEBUG 2017-08-04 04:07:55,809 [51   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 90cbe959-1262-407b-8d3b-d3cc1961ee9c
+WARN  2017-08-04 04:07:56,891 [51   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:07:56,966 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 90cbe959-1262-407b-8d3b-d3cc1961ee9c
+WARN  2017-08-04 04:07:57,027 [12   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:07:57,262 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"3699affb-f1e7-40d3-91ab-b301ec786e90","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:07:57.262282+03:00","Properties":{}}
+DEBUG 2017-08-04 04:07:57,274 [50   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 3699affb-f1e7-40d3-91ab-b301ec786e90
+WARN  2017-08-04 04:07:58,074 [27   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:07:58,128 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 3699affb-f1e7-40d3-91ab-b301ec786e90
+WARN  2017-08-04 04:07:58,196 [12   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:07:58,440 [27   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e8083e6a-76a2-43f7-bae1-47c8095f56da","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:07:58.4400699+03:00","Properties":{}}
+DEBUG 2017-08-04 04:07:58,448 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e8083e6a-76a2-43f7-bae1-47c8095f56da
+WARN  2017-08-04 04:07:59,544 [27   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:07:59,596 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e8083e6a-76a2-43f7-bae1-47c8095f56da
+WARN  2017-08-04 04:07:59,667 [12   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:07:59,905 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"6fc7ec10-83de-4272-b7f3-8566be568439","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:07:59.9059609+03:00","Properties":{}}
+DEBUG 2017-08-04 04:07:59,913 [40   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 6fc7ec10-83de-4272-b7f3-8566be568439
+WARN  2017-08-04 04:08:08,839 [9    ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:08:08,902 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 6fc7ec10-83de-4272-b7f3-8566be568439
+WARN  2017-08-04 04:08:08,986 [9    ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:08:09,246 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"1a2823e4-572b-4d30-992b-ea3685b7a0aa","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:08:09.2462399+03:00","Properties":{}}
+DEBUG 2017-08-04 04:08:09,265 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 1a2823e4-572b-4d30-992b-ea3685b7a0aa
+WARN  2017-08-04 04:08:09,778 [9    ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:08:09,834 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 1a2823e4-572b-4d30-992b-ea3685b7a0aa
+WARN  2017-08-04 04:08:09,898 [12   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:08:10,150 [49   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e4a24fe1-fcc1-44c3-90e9-b5e0f96ede88","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:08:10.150578+03:00","Properties":{}}
+DEBUG 2017-08-04 04:08:10,159 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e4a24fe1-fcc1-44c3-90e9-b5e0f96ede88
+WARN  2017-08-04 04:08:11,258 [48   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:08:11,310 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e4a24fe1-fcc1-44c3-90e9-b5e0f96ede88
+WARN  2017-08-04 04:08:11,373 [25   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:08:11,627 [48   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"21ac3d60-e261-4fd0-91b1-e8bc0c933d89","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:08:11.6272098+03:00","Properties":{}}
+DEBUG 2017-08-04 04:08:11,635 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 21ac3d60-e261-4fd0-91b1-e8bc0c933d89
+WARN  2017-08-04 04:08:12,732 [49   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:08:12,791 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 21ac3d60-e261-4fd0-91b1-e8bc0c933d89
+WARN  2017-08-04 04:08:12,877 [25   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:08:13,121 [49   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"2321f573-8f70-4d2b-829f-2b6808d44e72","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:08:13.1214208+03:00","Properties":{}}
+DEBUG 2017-08-04 04:08:13,129 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 2321f573-8f70-4d2b-829f-2b6808d44e72
+WARN  2017-08-04 04:08:13,657 [25   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:08:13,716 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 2321f573-8f70-4d2b-829f-2b6808d44e72
+WARN  2017-08-04 04:08:13,781 [25   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:08:14,025 [49   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"14bbb742-d68d-42ee-b120-be7cf5d5e034","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:08:14.0257593+03:00","Properties":{}}
+DEBUG 2017-08-04 04:08:14,035 [51   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 14bbb742-d68d-42ee-b120-be7cf5d5e034
+WARN  2017-08-04 04:08:15,742 [51   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:08:15,815 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 14bbb742-d68d-42ee-b120-be7cf5d5e034
+WARN  2017-08-04 04:08:15,890 [25   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:08:16,141 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"23295830-7d35-4fa4-b1d5-ce27c871f780","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:08:16.1410993+03:00","Properties":{}}
+DEBUG 2017-08-04 04:08:16,148 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 23295830-7d35-4fa4-b1d5-ce27c871f780
+WARN  2017-08-04 04:08:48,341 [28   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:08:48,405 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 23295830-7d35-4fa4-b1d5-ce27c871f780
+WARN  2017-08-04 04:08:48,834 [28   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:08:49,141 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e6aa0b5c-418e-41e0-8994-9abee1479c70","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:08:49.1416572+03:00","Properties":{}}
+DEBUG 2017-08-04 04:08:49,151 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e6aa0b5c-418e-41e0-8994-9abee1479c70
+WARN  2017-08-04 04:08:59,988 [13   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:09:00,049 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e6aa0b5c-418e-41e0-8994-9abee1479c70
+WARN  2017-08-04 04:09:00,120 [13   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:09:00,379 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5d62b6d0-a2b1-4efc-9b3b-028b7e73ebf1","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:09:00.3794893+03:00","Properties":{}}
+DEBUG 2017-08-04 04:09:00,384 [51   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 5d62b6d0-a2b1-4efc-9b3b-028b7e73ebf1
+WARN  2017-08-04 04:09:07,331 [32   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:09:07,401 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 5d62b6d0-a2b1-4efc-9b3b-028b7e73ebf1
+WARN  2017-08-04 04:09:07,465 [13   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:09:07,548 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"59323064-7b63-4567-8b58-90eba54f7b09","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:09:07.5487685+03:00","Properties":{}}
+DEBUG 2017-08-04 04:09:07,573 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 59323064-7b63-4567-8b58-90eba54f7b09
+WARN  2017-08-04 04:09:21,940 [11   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:09:21,991 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 59323064-7b63-4567-8b58-90eba54f7b09
+WARN  2017-08-04 04:09:22,285 [49   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:09:22,514 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f48eb648-0895-4eb8-80e5-0acb2a05c7a4","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:09:22.5143131+03:00","Properties":{}}
+DEBUG 2017-08-04 04:09:22,519 [32   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f48eb648-0895-4eb8-80e5-0acb2a05c7a4
+WARN  2017-08-04 04:09:24,610 [49   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:09:24,662 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f48eb648-0895-4eb8-80e5-0acb2a05c7a4
+WARN  2017-08-04 04:09:24,745 [19   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:09:24,968 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"5a3fc932-ba4a-40a1-a472-497ae2d97ed2","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:09:24.9685305+03:00","Properties":{}}
+DEBUG 2017-08-04 04:09:24,989 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 5a3fc932-ba4a-40a1-a472-497ae2d97ed2
+WARN  2017-08-04 04:09:25,643 [19   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:09:25,696 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 5a3fc932-ba4a-40a1-a472-497ae2d97ed2
+WARN  2017-08-04 04:09:25,764 [13   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:09:25,858 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"dc7f4ea3-edf3-4f7f-8d4f-32f9fadb5e68","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:09:25.8572454+03:00","Properties":{}}
+DEBUG 2017-08-04 04:09:25,881 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: dc7f4ea3-edf3-4f7f-8d4f-32f9fadb5e68
+WARN  2017-08-04 04:09:26,689 [49   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:09:26,742 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: dc7f4ea3-edf3-4f7f-8d4f-32f9fadb5e68
+WARN  2017-08-04 04:09:26,822 [11   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:09:26,896 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"aecb3fe9-e787-4cc8-bf14-38611730748d","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:09:26.8963551+03:00","Properties":{}}
+DEBUG 2017-08-04 04:09:26,899 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: aecb3fe9-e787-4cc8-bf14-38611730748d
+WARN  2017-08-04 04:09:28,243 [45   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:09:28,307 [49   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: aecb3fe9-e787-4cc8-bf14-38611730748d
+WARN  2017-08-04 04:09:28,375 [29   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:09:28,464 [49   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"89ed4ff7-9b9e-4c64-8cd2-847e65fe2025","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:09:28.4647886+03:00","Properties":{}}
+DEBUG 2017-08-04 04:09:28,467 [45   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 89ed4ff7-9b9e-4c64-8cd2-847e65fe2025
+WARN  2017-08-04 04:10:03,543 [29   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:10:03,657 [49   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 89ed4ff7-9b9e-4c64-8cd2-847e65fe2025
+WARN  2017-08-04 04:10:04,045 [46   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:10:04,269 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"da94b9e2-35a0-47a7-ae45-ae0515d102d4","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:10:04.2692064+03:00","Properties":{}}
+DEBUG 2017-08-04 04:10:04,274 [35   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: da94b9e2-35a0-47a7-ae45-ae0515d102d4
+WARN  2017-08-04 04:10:08,748 [32   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:10:08,806 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: da94b9e2-35a0-47a7-ae45-ae0515d102d4
+WARN  2017-08-04 04:10:08,873 [50   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:10:09,117 [49   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"cfd5d3ca-2ac0-42fe-8503-533a08c79051","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:10:09.1170906+03:00","Properties":{}}
+DEBUG 2017-08-04 04:10:09,146 [45   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: cfd5d3ca-2ac0-42fe-8503-533a08c79051
+WARN  2017-08-04 04:10:09,683 [50   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:10:09,744 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: cfd5d3ca-2ac0-42fe-8503-533a08c79051
+WARN  2017-08-04 04:10:09,812 [9    ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:10:09,893 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"dc83fc13-3c06-482a-a384-f6a28e834db2","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:10:09.8925202+03:00","Properties":{}}
+DEBUG 2017-08-04 04:10:09,896 [35   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: dc83fc13-3c06-482a-a384-f6a28e834db2
+WARN  2017-08-04 04:11:05,892 [46   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:11:05,950 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: dc83fc13-3c06-482a-a384-f6a28e834db2
+WARN  2017-08-04 04:11:06,283 [9    ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:11:06,497 [29   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"356625d4-7f31-4788-9608-da09b49e92f7","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:11:06.4977349+03:00","Properties":{}}
+DEBUG 2017-08-04 04:11:06,503 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 356625d4-7f31-4788-9608-da09b49e92f7
+WARN  2017-08-04 04:15:08,162 [35   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:15:08,224 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 356625d4-7f31-4788-9608-da09b49e92f7
+WARN  2017-08-04 04:15:08,638 [30   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:15:08,964 [35   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"25a22810-cd4d-4a8c-9d30-7cc85e1d9768","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:15:08.9642107+03:00","Properties":{}}
+DEBUG 2017-08-04 04:15:08,976 [38   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 25a22810-cd4d-4a8c-9d30-7cc85e1d9768
+WARN  2017-08-04 04:15:29,481 [37   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:15:29,559 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 25a22810-cd4d-4a8c-9d30-7cc85e1d9768
+WARN  2017-08-04 04:15:29,622 [34   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:15:29,863 [35   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b36e1a17-f433-4377-94dd-d4ae0fed2582","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:15:29.8636207+03:00","Properties":{}}
+DEBUG 2017-08-04 04:15:29,869 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b36e1a17-f433-4377-94dd-d4ae0fed2582
+WARN  2017-08-04 04:15:31,411 [37   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:15:31,482 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b36e1a17-f433-4377-94dd-d4ae0fed2582
+WARN  2017-08-04 04:15:31,541 [34   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:15:31,623 [30   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8a0d2edc-0a85-43af-9e54-efd453ecfdae","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:15:31.6234674+03:00","Properties":{}}
+DEBUG 2017-08-04 04:15:31,627 [58   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8a0d2edc-0a85-43af-9e54-efd453ecfdae
+WARN  2017-08-04 04:15:32,882 [43   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:15:32,937 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 8a0d2edc-0a85-43af-9e54-efd453ecfdae
+WARN  2017-08-04 04:15:33,011 [34   ] Abp.Logging.LogHelper                    - Can not find 'Products' in localization source 'Sportsstore'!
+DEBUG 2017-08-04 04:15:33,124 [9    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"2c9df681-dae7-457f-9ec9-deb8b565d8f1","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2017-08-04T04:15:33.1245146+03:00","Properties":{}}
+DEBUG 2017-08-04 04:15:33,152 [43   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 2c9df681-dae7-457f-9ec9-deb8b565d8f1

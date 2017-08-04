@@ -501,7 +501,6 @@
     <Content Include="Views\Product\Index.cshtml" />
     <Content Include="Views\Shared\ProductSummery.cshtml" />
     <Content Include="Views\Product\List.cshtml" />
-    <Content Include="Views\Shared\_Navigation.cshtml" />
     <Content Include="Views\Shared\_SideBar.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

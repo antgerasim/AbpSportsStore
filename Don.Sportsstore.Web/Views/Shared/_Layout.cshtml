@@ -43,9 +43,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.8-fix/jquery.nicescroll.min.js"></script>
 
     <script type="text/javascript">
-        $(document).ready(function () {
+        $(document).ready(function() {
 
-            $("#wrapper").addClass("toggled");
+            //$("#wrapper").addClass("toggled");
 
             $("#menu-toggle").click(function(e) {
                 e.preventDefault();
@@ -58,73 +58,16 @@
 </head>
 <body>
 
+    @*Navigation Parts*@
 <div id="wrapper">
-    <!-- Sidebar -->
-    <div id="sidebar-wrapper">
-        <ul class="sidebar-nav">
-            <li class="sidebar-brand" style="text-align: right; padding-right: 115px; padding-top: 10px">
-                <a href="#" type="button" id="menu-toggle">
-                          <i class="glyphicon glyphicon-bookmark"></i>
-                  @*  <i class="glyphicon glyphicon-th-list"></i>*@
-                </a>
-            </li>
-            <li class="sidebar-brand">
-                <a href="#">
-                    Home
-                </a>
-            </li>
-            <li>
-                <a href="#">Chess</a>
-            </li>
-            <li>
-                <a href="#">Soccer</a>
-            </li>
-            <li>
-                <a href="#">Watersports</a>
-            </li>
-        </ul>
-    </div>
-    <!-- /#sidebar-wrapper -->
-    <!-- Page Content -->
+    @Html.Partial("_SideBar")
     <div id="page-content-wrapper">
-
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-            @*   @*     <nav class=" navbar navbar-inverse" role="navigation">#1#*@
-            <div class="container">
-                <div class="navbar-header">
-                    @*           <button type="button" id="menu-toggle" class="btn btn-info navbar-btn">
-                        <i class="glyphicon glyphicon-align-left"></i>
-                        Toggle Sidebar
-                    </button>*@
-
-                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                        @* <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>*@
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    @*   <a class="navbar-brand" href="/">Application name</a>*@
-                    <a class="navbar-brand" href="~/"><i class="fa fa-cubes"></i> Sportsstore</a>
-                </div>
-                <div class="navbar-collapse collapse">
-                    <ul class="nav navbar-nav">
-                        @Html.Action("TopMenu", "Layout", new {activeMenu = ViewBag.ActiveMenu})
-                    </ul>
-                    <ul class="nav navbar-nav navbar-right">
-                        @Html.Action("LanguageSelection", "Layout")
-                        @Html.Action("UserMenuOrLoginLink", "Layout")
-                    </ul>
-                </div>
-            </div>
-        </nav>
+        @Html.Partial("_TopBar")
         @RenderBody()
     </div>
-    <!-- /#page-content-wrapper -->
-
 </div>
 
-@*@Html.Partial("_TopBar")*@
+
 
 
 <script>
