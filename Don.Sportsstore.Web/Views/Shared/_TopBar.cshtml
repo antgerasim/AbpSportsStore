@@ -19,7 +19,8 @@
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                @Html.Action("TopMenu", "Layout", new { activeMenu = ViewBag.ActiveMenu })
+       @*         @Html.Action("TopMenu", "Layout", new { activeMenu = ViewBag.ActiveMenu })*@
+                @Html.Action("TopMenu", "Layout", new { activeMenu = "Watersports" })
             </ul>
             <ul class="nav navbar-nav navbar-right">
                 @Html.Action("LanguageSelection", "Layout")

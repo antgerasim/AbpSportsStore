@@ -41,6 +41,18 @@ namespace Don.Sportsstore.Web.Controllers
         }
 
         [ChildActionOnly]
+        public PartialViewResult SideMenu(string activeMenu = "")
+        {
+            var model = new SideMenuViewModel()
+            {
+                MainMenu = AsyncHelper.RunSync(() => _userNavigationManager.GetMenuAsync("SideMenu", AbpSession.ToUserIdentifier())),
+                ActiveMenuItemName = activeMenu
+            };
+
+            return PartialView("_SideMenu", model);
+        }
+
+        [ChildActionOnly]
         public PartialViewResult LanguageSelection()
         {
             var model = new LanguageSelectionViewModel

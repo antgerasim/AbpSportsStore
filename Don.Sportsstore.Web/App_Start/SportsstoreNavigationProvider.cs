@@ -1,6 +1,8 @@
 ﻿using Abp.Application.Navigation;
+using Abp.Domain.Repositories;
 using Abp.Localization;
 using Don.Sportsstore.Authorization;
+using Don.Sportsstore.Products;
 
 namespace Don.Sportsstore.Web
 {
@@ -14,6 +16,38 @@ namespace Don.Sportsstore.Web
     {
         public override void SetNavigation(INavigationProviderContext context)
         {
+
+            var sideMenu = new MenuDefinition("SideMenu",
+                new LocalizableString("SideMenu", SportsstoreConsts.LocalizationSourceName));
+
+            sideMenu
+                .AddItem(new MenuItemDefinition(
+                    "All Products",
+                    L("All Products"),
+                    url: "/Products",
+                    icon: "fa fa-product-hunt"
+                ))
+                .AddItem(new MenuItemDefinition(
+                    "Watersports",
+                    L("Watersports"),
+                    url: "/Watersports",
+                    icon: "fa fa-life-ring"
+                ))
+                .AddItem(new MenuItemDefinition(
+                    "Soccer",
+                    L("Soccer"),
+                    url: "/Soccer",
+                    icon: "fa fa-futbol-o"
+                ))
+                .AddItem(new MenuItemDefinition(
+                    "Chess",
+                    L("Chess"),
+                    url: "/Chess",
+                    icon: "fa fa-beer"
+                ));
+
+            context.Manager.Menus.Add("SideMenu", sideMenu);
+
             context.Manager.MainMenu
                 .AddItem(
                     new MenuItemDefinition(
@@ -22,7 +56,7 @@ namespace Don.Sportsstore.Web
                         url: "",
                         icon: "fa fa-home",
                         requiresAuthentication: true
-                        )
+                    )
                 ).AddItem(
                     new MenuItemDefinition(
                         "Tenants",
@@ -30,7 +64,7 @@ namespace Don.Sportsstore.Web
                         url: "Tenants",
                         icon: "fa fa-globe",
                         requiredPermissionName: PermissionNames.Pages_Tenants
-                        )
+                    )
                 ).AddItem(
                     new MenuItemDefinition(
                         "Users",
@@ -38,23 +72,15 @@ namespace Don.Sportsstore.Web
                         url: "Users",
                         icon: "fa fa-users",
                         requiredPermissionName: PermissionNames.Pages_Users
-                        )
+                    )
                 ).AddItem(
                     new MenuItemDefinition(
                         "About",
                         L("About"),
                         url: "About",
                         icon: "fa fa-info"
-                        )
-                ).AddItem(
-                    new MenuItemDefinition(
-                        "Products",
-                        L("Products"),
-                        url: "",
-                        icon: "fa fa-info"
                     )
-                )
-                ;
+                );
         }
 
         private static ILocalizableString L(string name)

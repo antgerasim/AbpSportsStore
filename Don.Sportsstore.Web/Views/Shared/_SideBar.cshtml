@@ -4,9 +4,12 @@
             <a href="#" type="button" id="menu-toggle">
                 <i class="glyphicon glyphicon-bookmark"></i>
                 @*  <i class="glyphicon glyphicon-th-list"></i>*@
-                </a>
-            </li>
-            <li class="sidebar-brand">
+            </a>
+        </li>
+        @Html.Action("SideMenu", "Layout", new { activeMenu = ViewBag.ActiveMenu })
+     @*   @Html.Action("SideMenu", "Layout", new { activeMenu = "Watersports" })*@
+
+@*            <li class="sidebar-brand">
                 <a href="#">
                     Home
                 </a>
@@ -19,6 +22,6 @@
             </li>
             <li>
                 <a href="#">Watersports</a>
-            </li>
+            </li>*@
         </ul>
     </div>

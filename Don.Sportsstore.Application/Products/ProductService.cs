@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Abp.Application.Services.Dto;
 using Abp.Domain.Repositories;
+using Abp.Linq.Extensions;
 using Don.Sportsstore.Products.Dtos;
 
 namespace Don.Sportsstore.Products
@@ -26,9 +27,9 @@ namespace Don.Sportsstore.Products
 
             var products = await _productRepository
                 .GetAll()
-               // .Where(p => p.Category == input.Category)
+                .Where(p => p.Category == input.Category)
                 .OrderBy(p => p.Category)
-                .Skip((input.SkipCount -1) * _pageSize)
+                .Skip((input.SkipCount - 1) * _pageSize)
                 .Take(input.MaxResultCount)
                 .ToListAsync();
 
@@ -40,14 +41,17 @@ namespace Don.Sportsstore.Products
 
         public PagedResultDto<ProductListDto> GetAllSync(GetAllProductsInput input)
         {
-           // input.SkipCount = input.Page;
+            // input.SkipCount = input.Page;
 
-            var totalCount = _productRepository.GetAll().Count();
+            var totalCount = _productRepository.GetAll()
+                .WhereIf(input.Category != null && input.Category != "Products", p => p.Category == input.Category)
+                .Count();
             //var totalCount2 = await _productRepository.GetAllListAsync();
 
-            var products =  _productRepository
+            var products = _productRepository
                 .GetAll()
-                // .Where(p => p.Category == input.Category)
+                //.Where(p => p.Category == input.Category)
+                .WhereIf(input.Category != null && input.Category != "Products", p => p.Category == input.Category)
                 .OrderBy(p => p.Category)
                 .Skip((input.SkipCount - 1) * _pageSize)
                 .Take(input.MaxResultCount)

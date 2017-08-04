@@ -29,6 +29,7 @@ namespace Don.Sportsstore.Web
 
             //Configure navigation/menu
             Configuration.Navigation.Providers.Add<SportsstoreNavigationProvider>();
+  /*          Configuration.Navigation.Providers.Add<SportsstoreSideNavigationProvider>();*/
 
             //Configure Hangfire - ENABLE TO USE HANGFIRE INSTEAD OF DEFAULT JOB MANAGER
             //Configuration.BackgroundJobs.UseHangfire(configuration =>

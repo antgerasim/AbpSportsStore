@@ -18,8 +18,26 @@ namespace Don.Sportsstore.Web
                 defaults: new {id = RouteParameter.Optional}
             );
 
+            /*            routes.MapRoute(
+                            name: "Default",
+                            url: "{controller}/{action}/{id}",
+                            defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                        );*/
+
             routes.MapRoute(null,
                 "",
+                new
+                {
+                    controller = "Home",
+                    action = "Index",
+                    id = UrlParameter.Optional
+                }
+            );
+
+
+
+/*            routes.MapRoute(null,
+                "Products",
                 new
                 {
                     controller = "Product",
@@ -27,31 +45,43 @@ namespace Don.Sportsstore.Web
                     category = (string)null,
                     page = 1
                 }
-            );
+            );*/
 
             routes.MapRoute(null,
                 "Page{page}",
-                new { controller = "Product", action = "List", category = (string)null },
-                new { page = @"\d+" }
+                new {controller = "Product", action = "List", category = (string) null},
+                new {page = @"\d+"}
             );
 
-/*            routes.MapRoute(
-                name: null,
-                url: "Product/List/SkipCount{page}",
-                defaults: new {Controller = "Product", action = "List" }
+            routes.MapRoute(null,
+                "{category}",
+                new {controller = "Product", action = "List", page = 1}
+            );
+
+            routes.MapRoute(null,
+                "{category}/Page{page}",
+                new {controller = "Product", action = "List"},
+                new {page = @"\d+"}
+            );
+
+    /*        routes.MapRoute(null,
+                "Products",
+                new
+                {
+                    controller = "Product",
+                    action = "List",
+                    category = (string)null,
+                    page = 1
+                }
             );*/
 
-            /*          routes.MapRoute(
-                          name: null,
-                          url: "SkipCount{page}",
-                          defaults: new {Controller = "Product", action = "List"}
-                      );*/
+            routes.MapRoute(null, "{controller}/{action}");
 
-            routes.MapRoute(
-                name: "Default",
-                url: "{controller}/{action}/{id}",
-                defaults: new {controller = "Home", action = "Index", id = UrlParameter.Optional}
-            );
+            /*    routes.MapRoute(
+                    name: "Default",
+                    url: "{controller}/{action}/{id}",
+                    defaults: new {controller = "Home", action = "Index", id = UrlParameter.Optional}
+                );*/
         }
     }
 }

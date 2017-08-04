@@ -29,7 +29,8 @@ namespace Don.Sportsstore.Web.Controllers
             input.SkipCount = page;
             var output = _productService.GetAllSync(input);
             var pagingInfo = new PagingInfo(input.SkipCount, input.MaxResultCount, output.TotalCount);
-            var model = new ProductListViewModel(output.Items, pagingInfo);
+            var category = input.Category == null ? "Products" : input.Category;
+            var model = new ProductListViewModel(output.Items, pagingInfo, category);
             return View(model);
         }
     }
