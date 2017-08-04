@@ -26,7 +26,8 @@
 
     <script type="text/javascript">
         //This is used to get the application's root path from javascript. It's useful if you're running application in a virtual directory under IIS.
-        var abp = abp || {}; abp.appPath = '@ApplicationPath';
+        var abp = abp || {};
+        abp.appPath = '@ApplicationPath';
     </script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -35,33 +36,111 @@
         <script src="@Url.Content("~/Scripts/others/respond.min.js")"></script>
     <![endif]-->
 
+
     @Scripts.Render("~/Bundles/vendor/js/top")
+    @Scripts.Render("~/Bundles/vendor/js/bottom")
+    @Scripts.Render("~/Bundles/js")
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.6.8-fix/jquery.nicescroll.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $("#wrapper").addClass("toggled");
+
+            $("#menu-toggle").click(function(e) {
+                e.preventDefault();
+                $("#wrapper").toggleClass("toggled");
+            });
+
+        });
+    </script>
 
 </head>
 <body>
-    @Html.Partial("_TopBar")
 
-    <div class="container">
+<div id="wrapper">
+    <!-- Sidebar -->
+    <div id="sidebar-wrapper">
+        <ul class="sidebar-nav">
+            <li class="sidebar-brand" style="text-align: right; padding-right: 115px; padding-top: 10px">
+                <a href="#" type="button" id="menu-toggle">
+                          <i class="glyphicon glyphicon-bookmark"></i>
+                  @*  <i class="glyphicon glyphicon-th-list"></i>*@
+                </a>
+            </li>
+            <li class="sidebar-brand">
+                <a href="#">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="#">Chess</a>
+            </li>
+            <li>
+                <a href="#">Soccer</a>
+            </li>
+            <li>
+                <a href="#">Watersports</a>
+            </li>
+        </ul>
+    </div>
+    <!-- /#sidebar-wrapper -->
+    <!-- Page Content -->
+    <div id="page-content-wrapper">
+
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            @*   @*     <nav class=" navbar navbar-inverse" role="navigation">#1#*@
+            <div class="container">
+                <div class="navbar-header">
+                    @*           <button type="button" id="menu-toggle" class="btn btn-info navbar-btn">
+                        <i class="glyphicon glyphicon-align-left"></i>
+                        Toggle Sidebar
+                    </button>*@
+
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        @* <span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>*@
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @*   <a class="navbar-brand" href="/">Application name</a>*@
+                    <a class="navbar-brand" href="~/"><i class="fa fa-cubes"></i> Sportsstore</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        @Html.Action("TopMenu", "Layout", new {activeMenu = ViewBag.ActiveMenu})
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right">
+                        @Html.Action("LanguageSelection", "Layout")
+                        @Html.Action("UserMenuOrLoginLink", "Layout")
+                    </ul>
+                </div>
+            </div>
+        </nav>
         @RenderBody()
     </div>
+    <!-- /#page-content-wrapper -->
 
-    @Scripts.Render("~/Bundles/vendor/js/bottom")
-    @Scripts.Render("~/Bundles/js")
+</div>
 
-    <script>
-        //Localizing momentjs
-        moment.locale('@Thread.CurrentThread.CurrentUICulture.Name');
-    </script>
+@*@Html.Partial("_TopBar")*@
 
-    <!-- Dynamic scripts of ABP system (They are created on runtime and can not be bundled) -->
-    <script src="~/api/AbpServiceProxies/GetAll?v=@(Clock.Now.Ticks)"></script>
-    <script src="~/AbpScripts/GetScripts?v=@(Clock.Now.Ticks)" type="text/javascript"></script>
 
-    <!-- SignalR scripts -->
-    <script src="~/signalr/hubs"></script>
-    @Html.IncludeScript("~/Abp/Framework/scripts/libs/abp.signalr.js")
+<script>
+    //Localizing momentjs
+    moment.locale('@Thread.CurrentThread.CurrentUICulture.Name');
+</script>
+
+<!-- Dynamic scripts of ABP system (They are created on runtime and can not be bundled) -->
+<script src="~/api/AbpServiceProxies/GetAll?v=@(Clock.Now.Ticks)"></script>
+<script src="~/AbpScripts/GetScripts?v=@(Clock.Now.Ticks)" type="text/javascript"></script>
+
+<!-- SignalR scripts -->
+<script src="~/signalr/hubs"></script>
+@Html.IncludeScript("~/Abp/Framework/scripts/libs/abp.signalr.js")
 
 <!-- View specific scripts -->
-    @RenderSection("scripts", required: false)
+@RenderSection("scripts", required: false)
 </body>
 </html>
