@@ -60,10 +60,18 @@
 
     @*Navigation Parts*@
 <div id="wrapper">
+ 
     @Html.Partial("_SideBar")
     <div id="page-content-wrapper">
+
         @Html.Partial("_TopBar")
-        @RenderBody()
+        <div class="pull-right" id="header">
+            @{ Html.RenderAction("Summary", "Cart"); }
+        </div>
+        <div id="content">
+            @RenderBody()   
+        </div>
+      
     </div>
 </div>
 

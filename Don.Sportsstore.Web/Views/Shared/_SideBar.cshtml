@@ -1,4 +1,4 @@
-﻿    <div id="sidebar-wrapper">
+﻿<div id="sidebar-wrapper">
     <ul class="sidebar-nav">
         <li class="sidebar-brand" style="text-align: right; padding-right: 115px; padding-top: 10px">
             <a href="#" type="button" id="menu-toggle">
@@ -6,22 +6,7 @@
                 @*  <i class="glyphicon glyphicon-th-list"></i>*@
             </a>
         </li>
-        @Html.Action("SideMenu", "Layout", new { activeMenu = ViewBag.ActiveMenu })
-     @*   @Html.Action("SideMenu", "Layout", new { activeMenu = "Watersports" })*@
-
-@*            <li class="sidebar-brand">
-                <a href="#">
-                    Home
-                </a>
-            </li>
-            <li>
-                <a href="#">Chess</a>
-            </li>
-            <li>
-                <a href="#">Soccer</a>
-            </li>
-            <li>
-                <a href="#">Watersports</a>
-            </li>*@
-        </ul>
-    </div>
+        @*Get inspired by the great sidebar @https://thenewboston.com/*@
+        @Html.Action("SideMenu", "Layout", new {activeMenu = ViewBag.ActiveMenu})
+    </ul>
+</div>

@@ -2594,7 +2594,7 @@ select[multiple].input-lg {
     }
 
 .btn-default {
-    color: #ffffff;
+    color: #999999;
     background-color: #222222;
     border-color: #222222
 }
@@ -2605,8 +2605,8 @@ select[multiple].input-lg {
     .btn-default.active,
     .open .dropdown-toggle.btn-default {
         color: #ffffff;
-        background-color: #0e0e0e;
-        border-color: #040404
+        background-color: #222222;
+        border-color: #222222
     }
 
     .btn-default:active,
@@ -4353,7 +4353,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
             .nav > li > a:hover,
             .nav > li > a:focus {
                 text-decoration: none;
-                background-color: #e6e6e6
+                /*background-color: #e6e6e6*/
             }
 
         .nav > li.disabled > a {
@@ -5026,12 +5026,15 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     }
 
 .navbar-inverse {
-    background-color: #007fff;
-    border-color: #0066cc
+/*        background-color: #007fff;*/
+    background-color: #222222;
+    /*    border-color: #0066cc*/
+    border-color: #222222
 }
 
     .navbar-inverse .navbar-brand {
-        color: #ffffff
+        /* color: #ffffff*/
+        color: #999999
     }
 
         .navbar-inverse .navbar-brand:hover,
@@ -5045,13 +5048,14 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
     }
 
     .navbar-inverse .navbar-nav > li > a {
-        color: #ffffff
+     /*   color: #ffffff*/
+        color:  #999999
     }
 
         .navbar-inverse .navbar-nav > li > a:hover,
         .navbar-inverse .navbar-nav > li > a:focus {
             color: #ffffff;
-            background-color: #0066cc
+            background-color: #222222
         }
 
     .navbar-inverse .navbar-nav > .active > a,
@@ -5083,7 +5087,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 
     .navbar-inverse .navbar-collapse,
     .navbar-inverse .navbar-form {
-        border-color: #006ddb
+        border-color: #222222
     }
 
     .navbar-inverse .navbar-nav > .open > a,
