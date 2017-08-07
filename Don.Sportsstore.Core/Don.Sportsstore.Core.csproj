@@ -113,6 +113,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Carts\Cart.cs" />
+    <Compile Include="Carts\ShippingDetails.cs" />
     <Compile Include="Products\Product.cs" />
     <Compile Include="SportsstoreConsts.cs" />
     <Compile Include="SportsstoreCoreModule.cs" />

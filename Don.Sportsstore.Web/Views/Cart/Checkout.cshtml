@@ -1,0 +1,27 @@
+﻿@model Don.Sportsstore.Web.Models.Cart.ShippingDetailsDto
+
+@{
+    ViewBag.Title = "SportsStore: Checkout";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Check out now</h2>
+<p>Please enter your details, and we'll ship your goods right away!</p>
+@using (Html.BeginForm())
+{
+    <h3>Ship to</h3>
+    <div>Name: @Html.EditorFor(x => x.Name)</div>
+    <h3>Address</h3>
+    <div>Line 1: @Html.EditorFor(x => x.Line1)</div>
+    <div>Line 2: @Html.EditorFor(x => x.Line2)</div>
+    <div>Line 3: @Html.EditorFor(x => x.Line3)</div>
+
+    <h3>Options</h3>
+    <label>
+        @Html.EditorFor(x=>x.GiftWrap)
+        Gift wrap these items
+    </label>
+    <p align="center">
+        <input class="btn btn-default" type="submit" value="Complete order"/>
+    </p>
+}

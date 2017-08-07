@@ -10,11 +10,11 @@ namespace Don.Sportsstore.Web.Binders
         public object BindModel(ControllerContext controllerContext, ModelBindingContext bindingContext)
         {
             //get the cart from the session
-            Cart cart = (Cart) controllerContext.HttpContext.Session[sessionKey];
+            Carts.Cart cart = (Carts.Cart) controllerContext.HttpContext.Session[sessionKey];
             //create the Cart if there wasnt one in the session data
             if (cart == null)
             {
-                cart = new Cart();
+                cart = new Carts.Cart();
                 controllerContext.HttpContext.Session[sessionKey] = cart;
             }
             //return the cart

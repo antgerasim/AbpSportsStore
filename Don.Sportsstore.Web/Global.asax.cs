@@ -16,7 +16,7 @@ namespace Don.Sportsstore.Web
                 f => f.UseAbpLog4Net().WithConfig("log4net.config")
             );
 
-            ModelBinders.Binders.Add(typeof(Cart), new CartModelBinder());
+            ModelBinders.Binders.Add(typeof(Carts.Cart), new CartModelBinder());
             base.Application_Start(sender, e);
         }
     }

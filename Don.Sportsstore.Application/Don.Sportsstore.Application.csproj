@@ -124,8 +124,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cart\CartService.cs" />
+    <Compile Include="Cart\Dtos\CartDto.cs" />
+    <Compile Include="Cart\ICartService.cs" />
     <Compile Include="Products\Dtos\CreateProductInput.cs" />
-    <Compile Include="Products\Dtos\ProductListDto.cs" />
+    <Compile Include="Products\Dtos\ProductDto.cs" />
     <Compile Include="Products\Dtos\GetAllProductsInput.cs" />
     <Compile Include="Products\IProductService.cs" />
     <Compile Include="Products\ProductService.cs" />
@@ -162,6 +165,7 @@
       <Name>Don.Sportsstore.Core</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -30,7 +30,7 @@ namespace Don.Sportsstore.Web.HtmlHelpers
                 if (i==pagingInfo.CurrentPage)
                 {
                     tag.AddCssClass("selected");
-                    tag.AddCssClass("btn-primary");
+                    //tag.AddCssClass("btn-primary");
                 }
                 tag.AddCssClass("btn btn-default");
                 stringBuilder.Append(tag);

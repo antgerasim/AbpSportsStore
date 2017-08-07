@@ -5,12 +5,12 @@ namespace Don.Sportsstore.Web.Models.Product
 {
     public class ProductListViewModel
     {
-        public IReadOnlyList<ProductListDto> Products { get; set; }
+        public IReadOnlyList<ProductDto> Products { get; set; }
         public PagingInfo PagingInfo { get; set; }
 
         public string CurrentCategory { get; set; }
 
-        public ProductListViewModel(IReadOnlyList<ProductListDto> products, PagingInfo pagingInfo, string currentCategory)
+        public ProductListViewModel(IReadOnlyList<ProductDto> products, PagingInfo pagingInfo, string currentCategory)
         {
             Products = products;
             PagingInfo = pagingInfo;

@@ -4,6 +4,18 @@ body {
 
 .active {
     background-color: #002b55;
+/*    color: #ffffff*/
+           
+}
+
+.selected {
+    background-color: #002b55;
+    color: #ffffff
+}
+
+.selected:hover {
+    background-color: #002b55;
+    color: #ffffff
 }
 
 DIV#cart { float:right; margin: .8em; color: rgb(51, 51, 51);
