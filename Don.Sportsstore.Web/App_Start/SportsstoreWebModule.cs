@@ -1,4 +1,6 @@
-﻿using System.Reflection;
+﻿using System.Configuration;
+using System.Reflection;
+using System.Web;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
@@ -8,8 +10,10 @@ using Abp.Zero.Configuration;
 using Abp.Modules;
 using Abp.Web.Mvc;
 using Abp.Web.SignalR;
+using Castle.MicroKernel.Registration;
 using Don.Sportsstore.Api;
 using Hangfire;
+
 
 namespace Don.Sportsstore.Web
 {
@@ -40,7 +44,11 @@ namespace Don.Sportsstore.Web
 
         public override void Initialize()
         {
+            var test = HttpContext.Current;
             IocManager.RegisterAssemblyByConvention(Assembly.GetExecutingAssembly());
+
+
+
 
             AreaRegistration.RegisterAllAreas();
             RouteConfig.RegisterRoutes(RouteTable.Routes);

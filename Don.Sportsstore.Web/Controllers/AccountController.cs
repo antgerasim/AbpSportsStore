@@ -125,6 +125,9 @@ namespace Don.Sportsstore.Web.Controllers
                 identity = await _userManager.CreateIdentityAsync(user, DefaultAuthenticationTypes.ApplicationCookie);
             }
 
+            //Adding a new property to session 
+            //https://gist.github.com/hikalkan/67469e05475c2d18cb88#gistcomment-2029767
+
             AuthenticationManager.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
             AuthenticationManager.SignIn(new AuthenticationProperties { IsPersistent = rememberMe }, identity);
         }

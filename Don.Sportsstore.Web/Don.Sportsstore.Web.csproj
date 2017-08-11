@@ -319,6 +319,7 @@
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\font-awesome.css" />
     <Content Include="Content\font-awesome.min.css" />
+    <Content Include="css\ErrorStyles.css" />
     <Content Include="css\simple-sidebar.css" />
     <Content Include="css\Site.css" />
     <Content Include="Content\themes\base\accordion.css" />
@@ -375,6 +376,7 @@
     <Content Include="css\main.css.map">
       <DependentUpon>main.css</DependentUpon>
     </Content>
+    <Content Include="js\order\create.js" />
     <Content Include="log4net.config" />
     <Content Include="Content\toastr.scss" />
     <Content Include="Content\toastr.less" />
@@ -458,7 +460,6 @@
     <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CartController.cs" />
-    <Compile Include="Models\Cart\ShippingDetailsDto.cs" />
     <Compile Include="Models\Cart\CartIndexViewModel.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="HtmlHelpers\PagingHelpers.cs" />
@@ -511,6 +512,7 @@
     <Content Include="Views\Cart\Index.cshtml" />
     <Content Include="Views\Cart\Summary.cshtml" />
     <Content Include="Views\Cart\Checkout.cshtml" />
+    <Content Include="Views\Cart\Completed.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

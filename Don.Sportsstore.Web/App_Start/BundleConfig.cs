@@ -67,7 +67,8 @@ namespace Don.Sportsstore.Web
             //~/Bundles/js
             bundles.Add(
                 new ScriptBundle("~/Bundles/js")
-                    .Include("~/js/main.js")
+                    //.Include("~/js/main.js")
+                    .IncludeDirectory("~/js/", "*.js", true)
             );
         }
     }

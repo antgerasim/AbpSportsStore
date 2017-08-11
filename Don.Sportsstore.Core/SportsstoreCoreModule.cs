@@ -1,12 +1,15 @@
-﻿using System.Reflection;
+﻿using System.Configuration;
+using System.Reflection;
 using Abp.Localization.Dictionaries;
 using Abp.Localization.Dictionaries.Xml;
 using Abp.Modules;
 using Abp.Zero;
 using Abp.Zero.Configuration;
+using Castle.MicroKernel.Registration;
 using Don.Sportsstore.Authorization;
 using Don.Sportsstore.Authorization.Roles;
 using Don.Sportsstore.MultiTenancy;
+using Don.Sportsstore.Orders;
 using Don.Sportsstore.Users;
 
 namespace Don.Sportsstore
@@ -45,6 +48,17 @@ namespace Don.Sportsstore
         public override void Initialize()
         {
             IocManager.RegisterAssemblyByConvention(Assembly.GetExecutingAssembly());
+
+            // var writeAsFile = ConfigurationManager.AppSettings["Email.WriteAsFile"] ?? "false";
+            var writeAsFile = "true";
+
+/*            IocManager.IocContainer.Register(Component.For<IOrderManager>().ImplementedBy<OrderManager>()
+                .DependsOn(new EmailSettings
+                    {
+                        WriteAsFile = bool.Parse(writeAsFile)
+                    }
+                )
+            );*/
         }
     }
 }

@@ -112,8 +112,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Carts\Cart.cs" />
-    <Compile Include="Carts\ShippingDetails.cs" />
+    <Compile Include="Cart\Cart.cs" />
+    <Compile Include="Cart\ShippingDetails.cs" />
+    <Compile Include="Orders\OrderManager.cs" />
+    <Compile Include="Orders\EmailSettings.cs" />
+    <Compile Include="Orders\IOrderManager.cs" />
     <Compile Include="Products\Product.cs" />
     <Compile Include="SportsstoreConsts.cs" />
     <Compile Include="SportsstoreCoreModule.cs" />

@@ -1,27 +1,61 @@
-﻿@model Don.Sportsstore.Web.Models.Cart.ShippingDetailsDto
+﻿@using Don.Sportsstore.Carts
+@using Don.Sportsstore.Orders
+@model Don.Sportsstore.Orders.Dto.ShippingDetailsInput
 
 @{
     ViewBag.Title = "SportsStore: Checkout";
     Layout = "~/Views/Shared/_Layout.cshtml";
+   // var test = Model;
 }
 
 <h2>Check out now</h2>
 <p>Please enter your details, and we'll ship your goods right away!</p>
-@using (Html.BeginForm())
+
+@using (Html.BeginForm(null, null, FormMethod.Post, new {id = "OrderCreationForm"}))
 {
+@*    <div id="myDiv" data-value="@Request.RequestContext.HttpContext.Session["Cart"]"></div>*@
+    <div id="cartJson" data-value="@Model.Cart"></div>
+    @Html.ValidationSummary(true)
     <h3>Ship to</h3>
-    <div>Name: @Html.EditorFor(x => x.Name)</div>
+    <div class="form-group">
+        <label>Name</label>
+        @Html.TextAreaFor(x => x.Name, new {@class = "form-control", required = ""})
+        @*<textarea class="form-control" cols="20" data-val="true" required="Please enter a name" id="Name" name="Name" rows="2"></textarea>*@
+    </div>
     <h3>Address</h3>
-    <div>Line 1: @Html.EditorFor(x => x.Line1)</div>
-    <div>Line 2: @Html.EditorFor(x => x.Line2)</div>
-    <div>Line 3: @Html.EditorFor(x => x.Line3)</div>
+    foreach (var property in ViewData.ModelMetadata.Properties)
+    {
+        if (property.PropertyName != "Name" && property.PropertyName != "GiftWrap" && property.PropertyName != "Cart")
+        {
+            if (property.IsRequired)
+            {
+                //property.IsRequired = false;
+                <div class="form-group">
+                    <label>@(property.DisplayName ?? property.PropertyName)</label>
+                    @Html.TextBox(property.PropertyName, null, new {@class = "form-control", required = ""})
+                    @Html.ValidationMessage(property.DisplayName ?? property.PropertyName)
+                </div>
+            }
+            else
+            {
+                <div class="form-group">
+                    <label>@(property.DisplayName ?? property.PropertyName)</label>
+                    @Html.TextBox(property.PropertyName, null, new {@class = "form-control"})
+                    @Html.ValidationMessage(property.DisplayName ?? property.PropertyName)
+                </div>
+            }
+        }
+    }
 
     <h3>Options</h3>
-    <label>
-        @Html.EditorFor(x=>x.GiftWrap)
-        Gift wrap these items
-    </label>
-    <p align="center">
+    <div class="checkbox">
+        <label>
+            @Html.EditorFor(x => x.GiftWrap)
+            Gift wrap these items
+        </label>
+    </div>
+
+    <div class="text-center">
         <input class="btn btn-default" type="submit" value="Complete order"/>
-    </p>
+    </div>
 }

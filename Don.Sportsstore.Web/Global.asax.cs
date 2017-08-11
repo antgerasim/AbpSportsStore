@@ -17,6 +17,7 @@ namespace Don.Sportsstore.Web
             );
 
             ModelBinders.Binders.Add(typeof(Carts.Cart), new CartModelBinder());
+
             base.Application_Start(sender, e);
         }
     }
