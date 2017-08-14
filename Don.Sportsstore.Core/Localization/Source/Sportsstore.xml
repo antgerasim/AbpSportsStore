@@ -55,5 +55,13 @@
     <text name="Yes" value="Yes" />
     <text name="No" value="No" />
     <text name="Optional" value="Optional" />
+    
+    <!--Don Added-->
+    <text name="NameIsRequired" value="Please enter a name" />
+    <text name="Line1IsRequired" value="Please enter the first address line" />
+    <text name="CityIsRequired" value="Please enter a city name" />
+    <text name="CountryIsRequired" value="Please enter a country name" />
+    <text name="CartNotEmpty" value="Sorry, your cart is empty!" />
+    
   </texts>
 </localizationDictionary>

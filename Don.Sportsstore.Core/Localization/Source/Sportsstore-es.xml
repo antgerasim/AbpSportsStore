@@ -43,5 +43,12 @@
     <text name="TenantSelection_Detail" value="Por favor seleccione una de las siguientes empresas." />
     <text name="Logout" value="Cerrar sesión" />
 
+    <!--Don Added-->
+    <text name="NameIsRequired" value="Espanyol -> Name " />
+    <text name="Line1IsRequired" value="Espanyol -> Line" />
+    <text name="CityIsRequired" value="Espanyol -> City" />
+    <text name="CountryIsRequired" value="Espanyol -> Country" />
+    <text name="CartNotEmpty" value="Espanyol -> empty Cart!" />
+
   </texts>
 </localizationDictionary>

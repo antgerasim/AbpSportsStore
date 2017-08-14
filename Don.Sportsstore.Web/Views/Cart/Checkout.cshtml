@@ -1,11 +1,9 @@
-﻿@using Don.Sportsstore.Carts
-@using Don.Sportsstore.Orders
-@model Don.Sportsstore.Orders.Dto.ShippingDetailsInput
+﻿@model Don.Sportsstore.Orders.Dto.ShippingDetailsInput
 
 @{
     ViewBag.Title = "SportsStore: Checkout";
     Layout = "~/Views/Shared/_Layout.cshtml";
-   // var test = Model;
+    // var test = Model;
 }
 
 <h2>Check out now</h2>
@@ -13,14 +11,17 @@
 
 @using (Html.BeginForm(null, null, FormMethod.Post, new {id = "OrderCreationForm"}))
 {
-@*    <div id="myDiv" data-value="@Request.RequestContext.HttpContext.Session["Cart"]"></div>*@
-    <div id="cartJson" data-value="@Model.Cart"></div>
+    <div class="form-group">
+        @Html.HiddenFor(x => x.Cart)
+    </div>
+
+
     @Html.ValidationSummary(true)
     <h3>Ship to</h3>
     <div class="form-group">
         <label>Name</label>
         @Html.TextAreaFor(x => x.Name, new {@class = "form-control", required = ""})
-        @*<textarea class="form-control" cols="20" data-val="true" required="Please enter a name" id="Name" name="Name" rows="2"></textarea>*@
+
     </div>
     <h3>Address</h3>
     foreach (var property in ViewData.ModelMetadata.Properties)
