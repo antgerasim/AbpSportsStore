@@ -460,6 +460,8 @@
     <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CartController.cs" />
+    <Compile Include="Controllers\ErrorController.cs" />
+    <Compile Include="ExHandlers\DonExceptionHandler.cs" />
     <Compile Include="Models\Cart\CartIndexViewModel.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="HtmlHelpers\PagingHelpers.cs" />

@@ -1,6 +1,8 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 using System.Web.Mvc;
+using Abp.UI;
 using Abp.Web.Security.AntiForgery;
 using Don.Sportsstore.Cart;
 using Don.Sportsstore.Orders;
@@ -23,6 +25,9 @@ namespace Don.Sportsstore.Web.Controllers
 
         public ViewResult Index(Carts.Cart cart, string returnUrl)
         {
+            //throw new Exception("A sample exception message...");
+            //throw new UserFriendlyException("Ooppps! There is a problem!", "You are trying to see a product that is deleted...");
+
             var model = new CartIndexViewModel
             {
                 Cart = cart,
@@ -65,7 +70,7 @@ namespace Don.Sportsstore.Web.Controllers
             return View(model);
         }
 
-        [HttpPost]
+/*        [HttpPost]
         [DisableAbpAntiForgeryTokenValidation]
         public ViewResult Checkout(ShippingDetailsInput input)
         {
@@ -80,6 +85,10 @@ namespace Don.Sportsstore.Web.Controllers
                 return View("Completed");
             }
             return View(input);
-        }
+        }*/
     }
 }
+
+//validation links
+//https://forum.aspnetboilerplate.com/viewtopic.php?f=5&t=4947
+//https://github.com/aspnetboilerplate/aspnetboilerplate/blob/dev/src/Abp.Web.Resources/Abp/Framework/scripts/libs/abp.jquery.js#L69

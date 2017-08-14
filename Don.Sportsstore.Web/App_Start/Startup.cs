@@ -22,6 +22,8 @@ namespace Don.Sportsstore.Web
         public void Configuration(IAppBuilder app)
         {
             app.UseAbp();
+
+            
            
             app.UseOAuthBearerAuthentication(AccountController.OAuthBearerOptions);
             
