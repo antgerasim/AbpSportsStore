@@ -4,6 +4,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Threading.Tasks;
 using Abp.Application.Services.Dto;
+using Abp.AutoMapper;
 using Abp.Domain.Repositories;
 using Abp.Linq.Extensions;
 using Don.Sportsstore.Products.Dtos;
@@ -38,6 +39,19 @@ namespace Don.Sportsstore.Products
 
             var mappedProducts = ObjectMapper.Map<List<ProductDto>>(products);
             var retVal = new PagedResultDto<ProductDto>(totalCount, mappedProducts);
+
+            return retVal;
+        }
+
+        public async Task<IList<ProductDto>> GetAll()//todo change to listresultDto return type
+        {
+
+            var products = await _productRepository
+                .GetAll()
+                .OrderBy(p => p.Category).ToListAsync();
+
+            var retVal = products.MapTo<List<ProductDto>>();
+            //var retVal = products.MapTo<IReadOnlyList<ProductDto>>();
 
             return retVal;
         }

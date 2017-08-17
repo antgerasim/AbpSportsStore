@@ -17,7 +17,8 @@
         return ApplicationPath + url;
     });
 }
-@foreach (var menuItem in Model.MainMenu.Items)
+
+@foreach (var menuItem in Model.SideMenu.Items)
 {
     <li class="@(Model.ActiveMenuItemName == menuItem.Name ? "active" : "")">
         @if (menuItem.Items.IsNullOrEmpty())

@@ -15,7 +15,7 @@ using Don.Sportsstore.Users;
 
 namespace Don.Sportsstore.MultiTenancy
 {
-    [AbpAuthorize(PermissionNames.Pages_Tenants)]
+    //[AbpAuthorize(PermissionNames.Pages_Tenants)]//todo uncomment when https://github.com/aspnetboilerplate/module-zero-core-template/issues/97 fixed
     public class TenantAppService : SportsstoreAppServiceBase, ITenantAppService
     {
         private readonly TenantManager _tenantManager;

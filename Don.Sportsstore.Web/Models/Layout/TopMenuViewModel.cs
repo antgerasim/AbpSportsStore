@@ -4,7 +4,7 @@ namespace Don.Sportsstore.Web.Models.Layout
 {
     public class TopMenuViewModel
     {
-        public UserMenu MainMenu { get; set; }
+        public UserMenu TopMenu { get; set; }
 
         public string ActiveMenuItemName { get; set; }
     }

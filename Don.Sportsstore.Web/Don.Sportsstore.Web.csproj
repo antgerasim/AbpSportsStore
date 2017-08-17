@@ -455,11 +455,13 @@
     <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\CartController.cs" />
+    <Compile Include="Controllers\AdminController.cs" />
     <Compile Include="Controllers\ErrorController.cs" />
     <Compile Include="ExHandlers\DonExceptionHandler.cs" />
     <Compile Include="Models\Cart\CartIndexViewModel.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="HtmlHelpers\PagingHelpers.cs" />
+    <Compile Include="Models\Layout\AdminMenuViewModel.cs" />
     <Compile Include="Models\Layout\SideMenuViewModel.cs" />
     <Compile Include="Models\Product\PagingInfo.cs" />
     <Compile Include="Models\Product\ProductListViewModel.cs" />
@@ -510,6 +512,10 @@
     <Content Include="Views\Cart\Summary.cshtml" />
     <Content Include="Views\Cart\Checkout.cshtml" />
     <Content Include="Views\Cart\Completed.cshtml" />
+    <Content Include="Views\Shared\Admin\_AdminLayout.cshtml" />
+    <Content Include="Views\Layout\_AdminMenu.cshtml" />
+    <Content Include="Views\Shared\_AdminBar.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

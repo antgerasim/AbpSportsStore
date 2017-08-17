@@ -18,12 +18,13 @@ namespace Don.Sportsstore.Web
                 defaults: new {id = RouteParameter.Optional}
             );
 
-            /*            routes.MapRoute(
-                            name: "Default",
-                            url: "{controller}/{action}/{id}",
-                            defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
-                        );*/
+            routes.MapRoute(
+                name: "Default",
+                url: "{controller}/{action}/{id}",
+                defaults: new {controller = "Home", action = "Index", id = UrlParameter.Optional}
+            );
 
+/*
             routes.MapRoute(null,
                 "",
                 new
@@ -33,7 +34,7 @@ namespace Don.Sportsstore.Web
                     id = UrlParameter.Optional
                 }
             );
-
+*/
 
 
 /*            routes.MapRoute(null,
@@ -46,7 +47,7 @@ namespace Don.Sportsstore.Web
                     page = 1
                 }
             );*/
-
+/*
             routes.MapRoute(null,
                 "Page{page}",
                 new {controller = "Product", action = "List", category = (string) null},
@@ -62,20 +63,20 @@ namespace Don.Sportsstore.Web
                 "{category}/Page{page}",
                 new {controller = "Product", action = "List"},
                 new {page = @"\d+"}
-            );
-
-    /*        routes.MapRoute(null,
-                "Products",
-                new
-                {
-                    controller = "Product",
-                    action = "List",
-                    category = (string)null,
-                    page = 1
-                }
             );*/
 
-            routes.MapRoute(null, "{controller}/{action}");
+            /*        routes.MapRoute(null,
+                        "Products",
+                        new
+                        {
+                            controller = "Product",
+                            action = "List",
+                            category = (string)null,
+                            page = 1
+                        }
+                    );*/
+
+            //routes.MapRoute(null, "{controller}/{action}");
 
             /*    routes.MapRoute(
                     name: "Default",

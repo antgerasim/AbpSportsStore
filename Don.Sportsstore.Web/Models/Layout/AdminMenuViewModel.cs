@@ -2,9 +2,9 @@
 
 namespace Don.Sportsstore.Web.Models.Layout
 {
-    public class SideMenuViewModel
+    public class AdminMenuViewModel
     {
-        public UserMenu SideMenu { get; set; }
+        public UserMenu AdminMenu { get; set; }
 
         public string ActiveMenuItemName { get; set; }
     }

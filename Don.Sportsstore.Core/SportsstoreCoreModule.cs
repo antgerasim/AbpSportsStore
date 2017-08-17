@@ -39,8 +39,9 @@ namespace Don.Sportsstore
                         )
                     )
                 );
-
-            AppRoleConfig.Configure(Configuration.Modules.Zero().RoleManagement);
+            //Add Static Roles
+            var roleManagementConfig = Configuration.Modules.Zero().RoleManagement;
+            AppRoleConfig.Configure(roleManagementConfig);
 
             Configuration.Authorization.Providers.Add<SportsstoreAuthorizationProvider>();
         }

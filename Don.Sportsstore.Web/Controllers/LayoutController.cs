@@ -33,7 +33,7 @@ namespace Don.Sportsstore.Web.Controllers
         {
             var model = new TopMenuViewModel
                         {
-                            MainMenu = AsyncHelper.RunSync(() => _userNavigationManager.GetMenuAsync("MainMenu", AbpSession.ToUserIdentifier())),
+                            TopMenu = AsyncHelper.RunSync(() => _userNavigationManager.GetMenuAsync("MainMenu", AbpSession.ToUserIdentifier())),
                             ActiveMenuItemName = activeMenu
                         };
 
@@ -45,12 +45,26 @@ namespace Don.Sportsstore.Web.Controllers
         {
             var model = new SideMenuViewModel()
             {
-                MainMenu = AsyncHelper.RunSync(() => _userNavigationManager.GetMenuAsync("SideMenu", AbpSession.ToUserIdentifier())),
+                SideMenu = AsyncHelper.RunSync(() => _userNavigationManager.GetMenuAsync("SideMenu", AbpSession.ToUserIdentifier())),
                 ActiveMenuItemName = activeMenu
             };
 
             return PartialView("_SideMenu", model);
         }
+
+
+        [ChildActionOnly]
+        public PartialViewResult AdminMenu(string activeMenu = "")
+        {
+            var model = new AdminMenuViewModel()
+            {
+                AdminMenu = AsyncHelper.RunSync(() => _userNavigationManager.GetMenuAsync("AdminMenu", AbpSession.ToUserIdentifier())),
+                ActiveMenuItemName = activeMenu
+            };
+
+            return PartialView("_AdminMenu", model);
+        }
+
 
         [ChildActionOnly]
         public PartialViewResult LanguageSelection()

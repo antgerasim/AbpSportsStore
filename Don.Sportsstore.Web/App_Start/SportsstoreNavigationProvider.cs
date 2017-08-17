@@ -1,24 +1,68 @@
 ﻿using Abp.Application.Navigation;
-using Abp.Domain.Repositories;
 using Abp.Localization;
 using Don.Sportsstore.Authorization;
-using Don.Sportsstore.Products;
 
 namespace Don.Sportsstore.Web
 {
     /// <summary>
-    /// This class defines menus for the application.
-    /// It uses ABP's menu system.
-    /// When you add menu items here, they are automatically appear in angular application.
-    /// See Views/Layout/_TopMenu.cshtml file to know how to render menu.
+    ///     This class defines menus for the application.
+    ///     It uses ABP's menu system.
+    ///     When you add menu items here, they are automatically appear in angular application.
+    ///     See Views/Layout/_TopMenu.cshtml file to know how to render menu.
     /// </summary>
     public class SportsstoreNavigationProvider : NavigationProvider
     {
         public override void SetNavigation(INavigationProviderContext context)
         {
+            //ADMINMENU
+            InitAdminMenu(context);
+            //SIDEMENU
+            InitSideMenu(context);
+            //MAINMENU
+            InitMainMenu(context);
+        }
 
-            var sideMenu = new MenuDefinition("SideMenu",
-                new LocalizableString("SideMenu", SportsstoreConsts.LocalizationSourceName));
+        private void InitAdminMenu(INavigationProviderContext context)
+        {
+            var adminMenu = new MenuDefinition("AdminMenu", L("AdminMenu"));
+
+            adminMenu.AddItem(
+                new MenuItemDefinition(
+                    "Content",
+                    L("Content"),
+                    url: "Admin/Content",
+                    icon: "fa fa - info"
+                    //requiredPermissionName: PermissionNames.Administration
+                )
+            );
+
+            adminMenu.AddItem(
+                new MenuItemDefinition(
+                    "Users",
+                    L("Users"),
+                    url: "Admin/Users",
+                    icon: "fa fa-users",
+                    requiredPermissionName: PermissionNames.Pages_Users
+                )
+            );
+
+            adminMenu.AddItem(
+                new MenuItemDefinition(
+                    "Roles",
+                    L("Roles"),
+                    url: "Admin/Roles",
+                    icon: "fa fa-users",
+                    requiredPermissionName: PermissionNames.Pages_Users
+                )
+            );
+
+
+            context.Manager.Menus.Add("AdminMenu", adminMenu);
+        }
+
+        private static void InitSideMenu(INavigationProviderContext context)
+        {
+            var sideMenu = new MenuDefinition("SideMenu", L("SideMenu"));
 
             sideMenu
                 .AddItem(new MenuItemDefinition(
@@ -47,7 +91,10 @@ namespace Don.Sportsstore.Web
                 ));
 
             context.Manager.Menus.Add("SideMenu", sideMenu);
+        }
 
+        private static void InitMainMenu(INavigationProviderContext context)
+        {
             context.Manager.MainMenu
                 .AddItem(
                     new MenuItemDefinition(
@@ -72,6 +119,14 @@ namespace Don.Sportsstore.Web
                         url: "Users",
                         icon: "fa fa-users",
                         requiredPermissionName: PermissionNames.Pages_Users
+                    )
+                ).AddItem(
+                    new MenuItemDefinition(
+                        "Admin",
+                        L("Admin"),
+                        url: "Admin",
+                        icon: "fa fa - info"
+                        //requiredPermissionName: PermissionNames.Administration
                     )
                 ).AddItem(
                     new MenuItemDefinition(

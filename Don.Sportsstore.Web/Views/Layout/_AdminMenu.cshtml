@@ -1,6 +1,7 @@
-﻿@using Abp.Collections.Extensions
+﻿
+@using Abp.Collections.Extensions
 @using Don.Sportsstore.Web.Views
-@model Don.Sportsstore.Web.Models.Layout.TopMenuViewModel
+@model Don.Sportsstore.Web.Models.Layout.AdminMenuViewModel
 @{
     var calculateMenuUrl = new Func<string, string>((url) =>
     {
@@ -17,7 +18,8 @@
         return ApplicationPath + url;
     });
 }
-@foreach (var menuItem in Model.TopMenu.Items)
+
+@foreach (var menuItem in Model.AdminMenu.Items)
 {
     <li class="@(Model.ActiveMenuItemName == menuItem.Name ? "active" : "")">
         @if (menuItem.Items.IsNullOrEmpty())
