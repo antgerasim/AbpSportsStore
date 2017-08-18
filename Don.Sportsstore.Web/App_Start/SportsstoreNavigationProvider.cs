@@ -28,15 +28,21 @@ namespace Don.Sportsstore.Web
 
             adminMenu.AddItem(
                 new MenuItemDefinition(
+                    "Tenants",
+                    L("Tenants"),
+                    url: "Admin/Tenants",
+                    icon: "fa fa-globe",
+                    requiredPermissionName: PermissionNames.Pages_Tenants
+                )
+            ).AddItem(
+                new MenuItemDefinition(
                     "Content",
                     L("Content"),
                     url: "Admin/Content",
                     icon: "fa fa - info"
                     //requiredPermissionName: PermissionNames.Administration
                 )
-            );
-
-            adminMenu.AddItem(
+            ).AddItem(
                 new MenuItemDefinition(
                     "Users",
                     L("Users"),
@@ -44,9 +50,7 @@ namespace Don.Sportsstore.Web
                     icon: "fa fa-users",
                     requiredPermissionName: PermissionNames.Pages_Users
                 )
-            );
-
-            adminMenu.AddItem(
+            ).AddItem(
                 new MenuItemDefinition(
                     "Roles",
                     L("Roles"),
@@ -54,8 +58,15 @@ namespace Don.Sportsstore.Web
                     icon: "fa fa-users",
                     requiredPermissionName: PermissionNames.Pages_Users
                 )
+            ).AddItem(
+                new MenuItemDefinition(
+                    "Permissions",
+                    L("Permissions"),
+                    url: "Admin/Permissions",
+                    icon: "fa fa-users",
+                    requiredPermissionName: PermissionNames.Pages_Users
+                )
             );
-
 
             context.Manager.Menus.Add("AdminMenu", adminMenu);
         }
@@ -106,27 +117,11 @@ namespace Don.Sportsstore.Web
                     )
                 ).AddItem(
                     new MenuItemDefinition(
-                        "Tenants",
-                        L("Tenants"),
-                        url: "Tenants",
-                        icon: "fa fa-globe",
-                        requiredPermissionName: PermissionNames.Pages_Tenants
-                    )
-                ).AddItem(
-                    new MenuItemDefinition(
-                        "Users",
-                        L("Users"),
-                        url: "Users",
-                        icon: "fa fa-users",
-                        requiredPermissionName: PermissionNames.Pages_Users
-                    )
-                ).AddItem(
-                    new MenuItemDefinition(
                         "Admin",
                         L("Admin"),
                         url: "Admin",
-                        icon: "fa fa - info"
-                        //requiredPermissionName: PermissionNames.Administration
+                        icon: "fa fa - info",
+                        requiredPermissionName: PermissionNames.Pages_Users
                     )
                 ).AddItem(
                     new MenuItemDefinition(
