@@ -4,7 +4,9 @@
 @model Abp.Application.Services.Dto.ListResultDto<Don.Sportsstore.MultiTenancy.Dto.TenantListDto>
 @{
     ViewBag.ActiveMenu = "Tenants"; //The menu item will be active for this page.
+    Layout = "~/Views/Shared/Admin/_AdminLayout.cshtml";
 }
+
 @section scripts
 {
     @Html.IncludeScript("~/Views/Tenants/Index.js")

@@ -46,8 +46,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Abp, Version=2.3.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Abp.2.3.0\lib\net46\Abp.dll</HintPath>
+    <Reference Include="Abp, Version=2.0.2.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Bin\Abp.dll</HintPath>
     </Reference>
     <Reference Include="Abp.AutoMapper, Version=2.3.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Abp.AutoMapper.2.3.0\lib\net46\Abp.AutoMapper.dll</HintPath>
@@ -517,9 +518,10 @@
     <Content Include="Views\Shared\_AdminBar.cshtml" />
     <Content Include="Views\Admin\Index.cshtml" />
     <Content Include="Views\Admin\Content.cshtml" />
-    <Content Include="Views\Admin\Roles.cshtml" />
-    <Content Include="Views\Admin\Permissions.cshtml" />
     <Content Include="Views\Admin\Users.cshtml" />
+    <Content Include="Views\Admin\RoleList.cshtml" />
+    <Content Include="Views\Admin\PermissionList.cshtml" />
+    <Content Include="Views\Product\ListAll.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

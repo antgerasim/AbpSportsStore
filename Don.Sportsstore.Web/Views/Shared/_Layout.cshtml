@@ -2,6 +2,7 @@
 @using System.Web.Optimization
 @using Abp.Timing
 @using Abp.Web.Mvc.Extensions
+@using Don.Sportsstore.Authorization
 @{
     SetAntiForgeryCookie();
 }
@@ -66,7 +67,13 @@
 
         @Html.Partial("_TopBar")
         <div class="pull-right" id="header">
-            @{ Html.RenderAction("Summary", "Cart"); }
+            @{
+                if (IsGranted(PermissionNames.Pages))//todo replace by 'member' permission
+                {
+                    Html.RenderAction("Summary", "Cart");
+                }
+
+            }
         </div>
         <div id="content">
             @RenderBody()   

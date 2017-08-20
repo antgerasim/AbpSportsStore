@@ -1,0 +1,41 @@
+﻿@model Abp.Application.Services.Dto.ListResultDto<Don.Sportsstore.Roles.Dto.PermissionListDto>
+
+@{
+    ViewBag.Title = "Permission Management";
+    Layout = "~/Views/Shared/Admin/_AdminLayout.cshtml";
+}
+
+<div>
+    <h2>@L("Permission_Management")</h2>
+    <div class="row">
+        <div class="col-md-12">
+            <button data-toggle="modal" data-target="#TenantCreateModal" class="btn btn-primary pull-right"><i class="fa fa-plus"></i> @L("CreateNewPermission")</button>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>@L("Permission_TenantId")</th>
+                        <th>@L("Permission_Name")</th>
+                        <th>@L("Permission_IsGranted")</th>
+                        <th>@L("Permission_CreationTime")</th>
+                        <th>@L("Permission_RoleId")</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var perm in Model.Items)
+                    {
+                        <tr>
+                            <td>@perm.TenantId</td>
+                            <td>@perm.Name</td>
+                            <td>@perm.IsGranted</td>
+                            <td>@perm.CreationTime</td>
+                            <td>@perm.RoleId</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>
+

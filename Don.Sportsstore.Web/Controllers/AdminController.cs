@@ -1,41 +1,36 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
-using System.Web;
 using System.Web.Mvc;
-using Abp.AutoMapper;
-using Abp.Threading;
+using Abp.Authorization;
 using Abp.Web.Mvc.Authorization;
 using Don.Sportsstore.Authorization;
 using Don.Sportsstore.Products;
-using Don.Sportsstore.Products.Dtos;
 using Don.Sportsstore.Roles;
 using Don.Sportsstore.Users;
-using Don.Sportsstore.Web.Models.Product;
 
 namespace Don.Sportsstore.Web.Controllers
 {
-    [AbpMvcAuthorize(PermissionNames.Pages_Users)]
+    [AbpMvcAuthorize(PermissionNames.Tenant.Administration)]
     public class AdminController : Controller
     {
         private readonly IProductService _productService;
-        private readonly IUserAppService _userAppService;
         private readonly IRoleAppService _roleAppService;
+        private readonly IUserAppService _userAppService;
 
-        public AdminController(IProductService productService, IUserAppService userAppService, IRoleAppService roleAppService)
+        public AdminController(IProductService productService, IUserAppService userAppService,
+            IRoleAppService roleAppService)
         {
             _productService = productService;
             _userAppService = userAppService;
             _roleAppService = roleAppService;
         }
-        
-        public  ActionResult Index()
+
+        public ActionResult Index()
         {
-     
             return View();
         }
 
+        [AbpMvcAuthorize(PermissionNames.Tenant.Administration_ContentManagement)]
         public async Task<ActionResult> Content()
         {
             var modeList = await _productService.GetAll();
@@ -44,25 +39,40 @@ namespace Don.Sportsstore.Web.Controllers
 
         public async Task<ActionResult> Users()
         {
-            var output = await _userAppService.GetUsers();
-            return View(output);
+            //var output = await _userAppService.GetUsers();
+            //return View(output);
+            return await Task.Run<ActionResult>(() => RedirectToAction("Index", "Users"));
         }
 
         //create read update delete Roles
-        public ActionResult Roles()
+        public async Task<ActionResult> Roles()
         {
-            var output = await _roleAppService.
-            return View();
+            //Task run will use a different thread to the code passed.
+            return await Task.Run<ActionResult>(() => RedirectToAction("RoleList"));
         }
 
-        public ActionResult Permissions()
+        public async Task<ActionResult> RoleList()
         {
-            return View();
+            var output = await _roleAppService.GetRolesAsync();
+            return View(output);
         }
 
-        public ActionResult Create()
+        public async Task<ActionResult> Permissions()
         {
-            throw new NotImplementedException();
+            //Task run will use a different thread to the code passed.
+            return await Task.Run<ActionResult>(() => RedirectToAction("PermissionList"));
+        }
+ 
+
+        public async Task<ActionResult> PermissionList()
+        {
+            var output = await _roleAppService.GetPermissionsAsync();
+            return View(output);
+        }
+
+        public async Task<ActionResult> Tenants()
+        {
+            return await Task.Run<ActionResult>(() => RedirectToAction("Index","Tenants"));
         }
     }
 }

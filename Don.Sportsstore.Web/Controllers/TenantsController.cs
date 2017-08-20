@@ -5,7 +5,8 @@ using Don.Sportsstore.MultiTenancy;
 
 namespace Don.Sportsstore.Web.Controllers
 {
-    [AbpMvcAuthorize(PermissionNames.Pages_Tenants)]
+   // [AbpMvcAuthorize(PermissionNames.Pages_Tenants)]
+    [AbpMvcAuthorize(PermissionNames.Host.Administration)]
     public class TenantsController : SportsstoreControllerBase
     {
         private readonly ITenantAppService _tenantAppService;

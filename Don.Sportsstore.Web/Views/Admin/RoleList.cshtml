@@ -1,0 +1,39 @@
+﻿@model Abp.Application.Services.Dto.ListResultDto<Don.Sportsstore.Roles.Dto.RoleListDto>
+
+@{
+    ViewBag.Title = "Role Management";
+    Layout = "~/Views/Shared/Admin/_AdminLayout.cshtml";
+}
+
+<div>
+    <h2>@L("Role_Management")</h2>
+    <div class="row">
+        <div class="col-md-12">
+            <button data-toggle="modal" data-target="#TenantCreateModal" class="btn btn-primary pull-right"><i class="fa fa-plus"></i> @L("CreateNewTenant")</button>
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>@L("Role_Name")</th>
+                    <th>@L("Role_DisplayName")</th>
+                    <th>@L("Role_TenantId")</th>
+                    <th>@L("Role_CreationTime")</th>
+                </tr>
+                </thead>
+                <tbody>
+                @foreach (var role in Model.Items)
+                {
+                    <tr>
+                        <td>@role.Name</td>
+                        <td>@role.DisplayName</td>
+                        <td>@role.TenantId</td>
+                        <td>@role.CreationTime</td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</div>    
+
+

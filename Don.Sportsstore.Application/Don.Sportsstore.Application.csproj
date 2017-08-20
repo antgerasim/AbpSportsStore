@@ -154,6 +154,7 @@
     <Compile Include="Products\Dtos\GetAllProductsInput.cs" />
     <Compile Include="Products\IProductService.cs" />
     <Compile Include="Products\ProductService.cs" />
+    <Compile Include="Roles\Dto\PermissionListDto.cs" />
     <Compile Include="Roles\Dto\RoleListDto.cs" />
     <Compile Include="SportsstoreApplicationModule.cs" />
     <Compile Include="SportsstoreAppServiceBase.cs" />
