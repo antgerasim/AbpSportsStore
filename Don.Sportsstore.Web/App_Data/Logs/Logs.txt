@@ -552,3 +552,130 @@ WARN  2017-08-18 15:33:55,103 [31   ] naries.DictionaryBasedLocalizationSource -
 WARN  2017-08-18 15:33:55,103 [31   ] naries.DictionaryBasedLocalizationSource - Can not find 'Chess' in localization source 'Sportsstore'!
 DEBUG 2017-08-18 15:33:55,168 [19   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ce0d18c6-fb7e-4a27-99c3-b764b215fbc8","IpAddress":"127.0.0.1","TenantId":1,"UserId":2,"ConnectTime":"2017-08-18T15:33:55.1686351+03:00","Properties":{}}
 DEBUG 2017-08-18 15:33:55,182 [32   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ce0d18c6-fb7e-4a27-99c3-b764b215fbc8
+DEBUG 2017-08-20 19:40:24,802 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-08-20 19:40:24,823 [1    ] Abp.Modules.AbpModuleManager             - Found 17 ABP modules in total.
+DEBUG 2017-08-20 19:40:24,829 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.Web.SportsstoreWebModule, Don.Sportsstore.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 19:40:24,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreDataModule, Don.Sportsstore.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 19:40:24,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 19:40:24,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 19:40:24,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 19:40:24,831 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 19:40:24,832 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 19:40:24,832 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 19:40:24,832 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreCoreModule, Don.Sportsstore.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 19:40:24,832 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.SportsstoreApplicationModule, Don.Sportsstore.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 19:40:24,832 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 19:40:24,833 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Don.Sportsstore.Api.SportsstoreWebApiModule, Don.Sportsstore.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 19:40:24,833 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 19:40:24,833 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 19:40:24,833 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 19:40:24,833 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 19:40:24,833 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=2.3.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 19:40:24,836 [1    ] Abp.Modules.AbpModuleManager             - 17 modules loaded.
+DEBUG 2017-08-20 19:40:49,979 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-08-20 19:40:49,979 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-08-20 19:40:49,979 [1    ] o.Configuration.LanguageManagementConfig - Converted Sportsstore (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-08-20 19:40:49,979 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-08-20 19:40:50,312 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: Don.Sportsstore.EntityFramework.SportsstoreDbContext, Don.Sportsstore.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-08-20 19:40:59,624 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-08-20 19:40:59,633 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-08-20 19:40:59,642 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-08-20 19:40:59,645 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Sportsstore
+DEBUG 2017-08-20 19:40:59,646 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-08-20 19:40:59,721 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-08-20 19:40:59,783 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 11 classes define auto mapping attributes
+DEBUG 2017-08-20 19:40:59,784 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-08-20 19:40:59,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-08-20 19:40:59,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Users.Dto.CreateUserInput
+DEBUG 2017-08-20 19:40:59,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Users.Dto.UserListDto
+DEBUG 2017-08-20 19:40:59,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-08-20 19:40:59,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-08-20 19:40:59,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Roles.Dto.RoleListDto
+DEBUG 2017-08-20 19:40:59,787 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Products.Dtos.ProductDto
+DEBUG 2017-08-20 19:40:59,788 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Orders.Dto.ShippingDetailsInput
+DEBUG 2017-08-20 19:40:59,788 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Cart.Dtos.CartDto
+DEBUG 2017-08-20 19:40:59,788 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Don.Sportsstore.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2017-08-20 19:41:01,174 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2017-08-20 19:41:01,175 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2017-08-20 19:41:01,176 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2017-08-20 19:41:01,177 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2017-08-20 19:41:01,178 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Products.IProductService' with service name 'app/productService'.
+DEBUG 2017-08-20 19:41:01,179 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Orders.IOrderAppService' with service name 'app/order'.
+DEBUG 2017-08-20 19:41:01,180 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'Don.Sportsstore.Cart.ICartAppService' with service name 'app/cart'.
+WARN  2017-08-20 19:41:07,964 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'SideMenu' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:07,973 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'All Products' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:07,973 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Watersports' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:07,974 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Soccer' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:07,974 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Chess' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:09,160 [7    ] naries.DictionaryBasedLocalizationSource - Can not find 'Admin' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:11,022 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Admin' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:11,022 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'AdminMenu' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:11,026 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Content' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:11,028 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Roles' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:11,028 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Permissions' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:11,030 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'SideMenu' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:11,034 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'All Products' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:11,036 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Watersports' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:11,036 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Soccer' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:11,039 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Chess' in localization source 'Sportsstore'!
+DEBUG 2017-08-20 19:41:11,359 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"503ce886-f0b1-4481-bc2a-6fe27fd75c67","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-08-20T19:41:11.3529338+03:00","Properties":{}}
+DEBUG 2017-08-20 19:41:11,423 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 503ce886-f0b1-4481-bc2a-6fe27fd75c67
+DEBUG 2017-08-20 19:41:14,965 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 503ce886-f0b1-4481-bc2a-6fe27fd75c67
+DEBUG 2017-08-20 19:41:16,372 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"ec94f644-f95f-496a-a519-c5492d628422","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-08-20T19:41:16.3724357+03:00","Properties":{}}
+DEBUG 2017-08-20 19:41:16,390 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: ec94f644-f95f-496a-a519-c5492d628422
+WARN  2017-08-20 19:41:23,152 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'AdminMenu' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:23,156 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Content' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:23,157 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Roles' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:23,158 [10   ] naries.DictionaryBasedLocalizationSource - Can not find 'Permissions' in localization source 'Sportsstore'!
+DEBUG 2017-08-20 19:41:23,216 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: ec94f644-f95f-496a-a519-c5492d628422
+WARN  2017-08-20 19:41:23,311 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Admin' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:23,312 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'AdminMenu' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:23,315 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Content' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:23,316 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Roles' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:23,317 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Permissions' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:23,317 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'SideMenu' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:23,321 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'All Products' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:23,322 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Watersports' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:23,322 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Soccer' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:23,323 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Chess' in localization source 'Sportsstore'!
+DEBUG 2017-08-20 19:41:23,433 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"b567729b-c485-4d22-8f62-2e9da439de7a","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-08-20T19:41:23.4331417+03:00","Properties":{}}
+DEBUG 2017-08-20 19:41:23,447 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: b567729b-c485-4d22-8f62-2e9da439de7a
+WARN  2017-08-20 19:41:39,781 [20   ] naries.DictionaryBasedLocalizationSource - Can not find 'AdminMenu' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:39,784 [20   ] naries.DictionaryBasedLocalizationSource - Can not find 'Content' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:39,786 [20   ] naries.DictionaryBasedLocalizationSource - Can not find 'Roles' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:39,786 [20   ] naries.DictionaryBasedLocalizationSource - Can not find 'Permissions' in localization source 'Sportsstore'!
+DEBUG 2017-08-20 19:41:39,840 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: b567729b-c485-4d22-8f62-2e9da439de7a
+WARN  2017-08-20 19:41:39,936 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Admin' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:39,937 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'AdminMenu' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:39,940 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Content' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:39,941 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Roles' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:39,942 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Permissions' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:39,944 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'SideMenu' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:39,947 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'All Products' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:39,948 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Watersports' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:39,948 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Soccer' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:41:39,949 [5    ] naries.DictionaryBasedLocalizationSource - Can not find 'Chess' in localization source 'Sportsstore'!
+DEBUG 2017-08-20 19:41:40,104 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"3a1147e6-7862-456e-b245-2c87116559da","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-08-20T19:41:40.1048087+03:00","Properties":{}}
+DEBUG 2017-08-20 19:41:40,120 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 3a1147e6-7862-456e-b245-2c87116559da
+WARN  2017-08-20 19:45:19,706 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'AdminMenu' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:45:19,709 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'Content' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:45:19,711 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'Roles' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:45:19,712 [24   ] naries.DictionaryBasedLocalizationSource - Can not find 'Permissions' in localization source 'Sportsstore'!
+DEBUG 2017-08-20 19:45:21,683 [25   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"3a1147e6-7862-456e-b245-2c87116559da","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-08-20T19:41:40.1048087+03:00","Properties":{}}
+DEBUG 2017-08-20 19:45:21,685 [23   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"3a1147e6-7862-456e-b245-2c87116559da","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-08-20T19:41:40.1048087+03:00","Properties":{}}
+DEBUG 2017-08-20 19:45:21,687 [21   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"3a1147e6-7862-456e-b245-2c87116559da","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-08-20T19:41:40.1048087+03:00","Properties":{}}
+DEBUG 2017-08-20 19:45:21,885 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"3a1147e6-7862-456e-b245-2c87116559da","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-08-20T19:41:40.1048087+03:00","Properties":{}}
+DEBUG 2017-08-20 19:45:21,885 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"3a1147e6-7862-456e-b245-2c87116559da","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-08-20T19:41:40.1048087+03:00","Properties":{}}
+WARN  2017-08-20 19:45:21,895 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'Admin' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:45:21,900 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'AdminMenu' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:45:21,904 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'Content' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:45:21,905 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'Roles' in localization source 'Sportsstore'!
+DEBUG 2017-08-20 19:45:21,905 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is reconnected: {"ConnectionId":"3a1147e6-7862-456e-b245-2c87116559da","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-08-20T19:41:40.1048087+03:00","Properties":{}}
+WARN  2017-08-20 19:45:21,907 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'Permissions' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:45:21,908 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'SideMenu' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:45:21,911 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'All Products' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:45:21,911 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'Watersports' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:45:21,912 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'Soccer' in localization source 'Sportsstore'!
+WARN  2017-08-20 19:45:21,912 [21   ] naries.DictionaryBasedLocalizationSource - Can not find 'Chess' in localization source 'Sportsstore'!
+DEBUG 2017-08-20 19:45:22,012 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"c5789d05-9138-4aa0-8e61-6037b182ca4a","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2017-08-20T19:45:22.0129973+03:00","Properties":{}}
+DEBUG 2017-08-20 19:45:22,160 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: c5789d05-9138-4aa0-8e61-6037b182ca4a

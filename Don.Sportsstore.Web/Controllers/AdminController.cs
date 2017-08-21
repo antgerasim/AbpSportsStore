@@ -51,7 +51,7 @@ namespace Don.Sportsstore.Web.Controllers
         //create read update delete Roles
         public ActionResult Roles()
         {
-            var output = await _roleAppService.
+           // var output = await _roleAppService.
             return View();
         }
 
