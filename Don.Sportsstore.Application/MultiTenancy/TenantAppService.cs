@@ -16,6 +16,7 @@ using Don.Sportsstore.Users;
 namespace Don.Sportsstore.MultiTenancy
 {
     //[AbpAuthorize(PermissionNames.Pages_Tenants)]//todo uncomment when https://github.com/aspnetboilerplate/module-zero-core-template/issues/97 fixed
+    [AbpAuthorize(PermissionNames.Host.Administration)]
     public class TenantAppService : SportsstoreAppServiceBase, ITenantAppService
     {
         private readonly TenantManager _tenantManager;
@@ -44,7 +45,7 @@ namespace Don.Sportsstore.MultiTenancy
                     .MapTo<List<TenantListDto>>()
                 );
         }
-
+        [AbpAuthorize(PermissionNames.Host.Administration_TenantManagement)]
         public async Task CreateTenant(CreateTenantInput input)
         {
             //Create tenant
