@@ -69,7 +69,8 @@ namespace Don.Sportsstore.Web.Controllers
             var output = await _roleAppService.GetPermissionsAsync();
             return View(output);
         }
-
+        // [AbpMvcAuthorize(PermissionNames.Host.Administration)]
+        //[AbpMvcAuthorize(PermissionNames.Pages_Tenants)]
         public async Task<ActionResult> Tenants()
         {
             return await Task.Run<ActionResult>(() => RedirectToAction("Index","Tenants"));

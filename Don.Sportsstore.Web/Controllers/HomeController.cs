@@ -24,17 +24,21 @@ namespace Don.Sportsstore.Web.Controllers
         public ActionResult Index()
         {
             var systemAdmin = 1;
-            var tenantAdmin = 2;
+            // var tenantAdmin = 2;
+            var tenantAdmin = 5;
+
 
             GrantAllPermissionsTo(systemAdmin);
-            GrantAllPermissionsTo(tenantAdmin);
+            //GrantAllPermissionsTo(tenantAdmin);
 
             return View();
         }
 
         private void GrantAllPermissionsTo(int adminRoleId)
         {
-            var allPermissions = adminRoleId==1?_permissionManager.GetAllPermissions(false) : _permissionManager.GetAllPermissions();
+            //var allPermissions = adminRoleId==1?_permissionManager.GetAllPermissions(false) : _permissionManager.GetAllPermissions();
+            var allPermissions = _permissionManager.GetAllPermissions(false);
+
             var allPermissionsForTenancy = _permissionManager.GetAllPermissions();
 
             var permStrins = new List<string>();

@@ -53,7 +53,7 @@ namespace Don.Sportsstore.Web.Controllers
             //var pagingInfo = new PagingInfo(input.SkipCount, input.MaxResultCount, output.TotalCount);
             //var category = input.Category == null ? "Products" : input.Category;
             //var model = new ProductListViewModel(output.Items, pagingInfo, category);
-            return View();
+            return View(output);
         }
     }
 }

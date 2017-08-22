@@ -33,8 +33,8 @@ namespace Don.Sportsstore.Web
                     L("Tenants"),
                     url: "Admin/Tenants",
                     icon: "fa fa-globe",
-                    //requiredPermissionName: PermissionNames.Pages_Tenants
-                    requiredPermissionName: PermissionNames.Host.Administration
+                    requiredPermissionName: PermissionNames.Pages_Tenants
+                    //requiredPermissionName: PermissionNames.Host.Administration
 
 
                 )

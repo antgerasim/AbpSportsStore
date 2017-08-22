@@ -1,8 +1,38 @@
-﻿@model dynamic
+﻿@model System.Collections.Generic.IList<Don.Sportsstore.Products.Dtos.ProductDto>
 
 @{
     ViewBag.Title = "title";
-    Layout = "_Layout";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
 <h2>title</h2>
+
+
+<div class="row">
+    <div class="col-md-12">
+@*        <button data-toggle="modal" data-target="#ProductCreateModal" class="btn btn-primary pull-right"><i class="fa fa-plus"></i> @L("CreateNewTenant")</button>*@
+        <table class="table">
+            <thead>
+            <tr>
+                <th>@L("ProductId")</th>
+                <th>@L("ProductName")</th>
+                <th>@L("ProductDescription")</th>
+                <th>@L("ProductCategory")</th>
+                <th>@L("ProductPrice")</th>
+            </tr>
+            </thead>
+            <tbody>
+            @foreach (var product in Model)
+            {
+                <tr>
+                    <td>@product.Id</td>
+                    <td>@product.Name</td>
+                    <td>@product.Description</td>
+                    <td>@product.Category</td>
+                    <td>@product.Price</td>
+                </tr>
+            }
+            </tbody>
+        </table>
+    </div>
+</div>
