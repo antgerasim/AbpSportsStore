@@ -8,12 +8,13 @@ namespace Don.Sportsstore.Products
 {
     public interface IProductService : IApplicationService
     {
-        //Task<ListResultDto<ProductListDto>> GetAll(GetAllProductsInput input, int page);
+        Task<ProductDto> Get(EntityDto<int> input);
         Task<PagedResultDto<ProductDto>> GetAll(GetAllProductsInput input);
         Task<IList<ProductDto>> GetAll();
-        /*  PagedResultDto<ProductDto> GetAllSync(GetAllProductsInput input);*/
+        Task CreateProduct(CreateUpdateProductInput input);
+        Task DeleteProduct(ProductDto input);
+        Task UpdateProduct(CreateUpdateProductInput input);
 
 
-        Task Create(CreateProductInput input);
     }
 }

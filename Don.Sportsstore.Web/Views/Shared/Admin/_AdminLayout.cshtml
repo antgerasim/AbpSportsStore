@@ -44,13 +44,21 @@
     @Scripts.Render("~/Bundles/js")
 </head>
 <body>
+    
+    
 
 <div id="adminMenu">
     @Html.Partial("_AdminBar")
 </div>
     
 <div id="adminLayoutContent">
-    
+
+    <div>
+        @if (TempData["message"]!=null)
+        {
+            <div class="alert alert-success">@TempData["message"]</div>
+        }
+    </div>    
     @RenderBody()
 </div>
 

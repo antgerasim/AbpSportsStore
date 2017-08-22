@@ -25,9 +25,9 @@ namespace Don.Sportsstore.MultiTenancy
         private readonly IAbpZeroDbMigrator _abpZeroDbMigrator;
 
         public TenantAppService(
-            TenantManager tenantManager, 
-            RoleManager roleManager, 
-            EditionManager editionManager, 
+            TenantManager tenantManager,
+            RoleManager roleManager,
+            EditionManager editionManager,
             IAbpZeroDbMigrator abpZeroDbMigrator)
         {
             _tenantManager = tenantManager;
@@ -43,8 +43,10 @@ namespace Don.Sportsstore.MultiTenancy
                     .OrderBy(t => t.TenancyName)
                     .ToList()
                     .MapTo<List<TenantListDto>>()
-                );
+
+            );
         }
+
         [AbpAuthorize(PermissionNames.Host.Administration_TenantManagement)]
         public async Task CreateTenant(CreateTenantInput input)
         {
@@ -60,7 +62,7 @@ namespace Don.Sportsstore.MultiTenancy
                 tenant.EditionId = defaultEdition.Id;
             }
 
-            await TenantManager.CreateAsync(tenant);
+            await TenantManager.CreateAsync(tenant); //Domain Service used here to make duplicate check.
             await CurrentUnitOfWork.SaveChangesAsync(); //To get new tenant's id.
 
             //Create tenant database

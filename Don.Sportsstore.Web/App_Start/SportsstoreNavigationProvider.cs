@@ -1,5 +1,4 @@
-﻿
-using Abp.Application.Navigation;
+﻿using Abp.Application.Navigation;
 using Abp.Localization;
 using Don.Sportsstore.Authorization;
 
@@ -35,8 +34,6 @@ namespace Don.Sportsstore.Web
                     icon: "fa fa-globe",
                     requiredPermissionName: PermissionNames.Pages_Tenants
                     //requiredPermissionName: PermissionNames.Host.Administration
-
-
                 )
             ).AddItem(
                 new MenuItemDefinition(
@@ -54,7 +51,6 @@ namespace Don.Sportsstore.Web
                     icon: "fa fa-users",
                     //requiredPermissionName: PermissionNames.Pages_Users
                     requiredPermissionName: PermissionNames.Tenant.Administration
-
                 )
             ).AddItem(
                 new MenuItemDefinition(
@@ -64,7 +60,6 @@ namespace Don.Sportsstore.Web
                     icon: "fa fa-users",
                     //requiredPermissionName: PermissionNames.Pages_Users
                     requiredPermissionName: PermissionNames.Tenant.Administration
-
                 )
             ).AddItem(
                 new MenuItemDefinition(
@@ -74,7 +69,6 @@ namespace Don.Sportsstore.Web
                     icon: "fa fa-users",
                     //requiredPermissionName: PermissionNames.Pages_Users
                     requiredPermissionName: PermissionNames.Tenant.Administration
-
                 )
             );
 
@@ -120,7 +114,6 @@ namespace Don.Sportsstore.Web
 
         private static void InitMainMenu(INavigationProviderContext context)
         {
-
             context.Manager.MainMenu
                 .AddItem(
                     new MenuItemDefinition(
@@ -134,17 +127,16 @@ namespace Don.Sportsstore.Web
                     new MenuItemDefinition(
                         "Admin",
                         L("Admin"),
-                        url: "Admin",
+                        url: "Admin/Index", //todo fix after adding default value for {action} in routeconfig
                         icon: "fa fa - info",
                         //requiredPermissionName: PermissionNames.Pages_Users
                         requiredPermissionName: PermissionNames.Tenant.Administration
-
                     )
                 ).AddItem(
                     new MenuItemDefinition(
                         "About",
                         L("About"),
-                        url: "About",
+                        url: "About/Index", //todo fix after adding default value for {action} in routeconfig
                         icon: "fa fa-info"
                     )
                 );

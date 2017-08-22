@@ -21,3 +21,5 @@ namespace Don.Sportsstore.Web.Models.Account
         }
     }
 }
+
+//automapper comments https://github.com/aspnetboilerplate/aspnetboilerplate/issues/175

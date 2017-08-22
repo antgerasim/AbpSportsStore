@@ -1,4 +1,4 @@
-﻿@model IList<Don.Sportsstore.Products.Dtos.ProductDto>
+﻿@model System.Collections.Generic.IList<Don.Sportsstore.Products.Dtos.ProductDto>
 
 @{
     ViewBag.Title = "Admin: All Products";
@@ -20,13 +20,15 @@
                 <th class="text-right">Price</th>
                 <th class="text-center">Actions</th>
             </tr>
-            @foreach (var item in Model) {
+            @foreach (var item in Model)
+            {
                 <tr>
                     <td class="text-right">@item.Id</td>
                     <td>@Html.ActionLink(item.Name, "Edit", new { item.Id })</td>
                     <td class="text-right">@item.Price.ToString("c")</td>
                     <td class="text-center">
-                        @using (Html.BeginForm("Delete", "Admin")) {
+                        @using (Html.BeginForm("Delete", "Admin"))
+                        {
                             @Html.Hidden("ProductID", item.Id)
                             <input type="submit"
                                    class="btn btn-default btn-xs"
@@ -42,8 +44,3 @@
             new { @class = "btn btn-default" })
     </div>
 </div>
-
-
-
-
-
