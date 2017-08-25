@@ -5,11 +5,17 @@
     Layout = "~/Views/Shared/Admin/_AdminLayout.cshtml";
 }
 
+@section scripts
+{
+<script src="~/js/product/productEdit.js"></script>
+
+}
+
 <div class="panel">
     <div class="panel-heading">
         <h3>Edit @Model.Name</h3>
     </div>
-    @using (Html.BeginForm()) {
+    @using (Html.BeginForm(null, null , FormMethod.Post,new{id="ProductEditForm"})) {
         <div class="panel-body">
             @Html.HiddenFor(m => m.Id)
             @foreach (var property in ViewData.ModelMetadata.Properties) {

@@ -367,12 +367,13 @@
     <Content Include="Content\flags\famfamfam-flags.png" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="js\product\productEdit.js" />
     <Content Include="js\main.js" />
     <Content Include="css\main.less" />
     <Content Include="css\main.css.map">
       <DependentUpon>main.css</DependentUpon>
     </Content>
-    <Content Include="js\order\create.js" />
+    <Content Include="js\cart\cartCreate.js" />
     <Content Include="log4net.config" />
     <Content Include="Content\toastr.scss" />
     <Content Include="Content\toastr.less" />

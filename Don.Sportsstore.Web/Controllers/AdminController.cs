@@ -17,14 +17,14 @@ namespace Don.Sportsstore.Web.Controllers
     [AbpMvcAuthorize(PermissionNames.Tenant.Administration)]
     public class AdminController : SportsstoreControllerBase
     {
-        private readonly IProductService _productService;
+        private readonly IProductAppService _productAppService;
         private readonly IRoleAppService _roleAppService;
         private readonly IUserAppService _userAppService;
 
-        public AdminController(IProductService productService, IUserAppService userAppService,
+        public AdminController(IProductAppService productAppService, IUserAppService userAppService,
             IRoleAppService roleAppService)
         {
-            _productService = productService;
+            _productAppService = productAppService;
             _userAppService = userAppService;
             _roleAppService = roleAppService;
         }
@@ -37,14 +37,14 @@ namespace Don.Sportsstore.Web.Controllers
 
         public async Task<ActionResult> ProductList()
         {
-            var output = await _productService.GetAll();//todo replace by ProductListViewModel -> enable pagination
+            var output = await _productAppService.GetAllProducts();//todo replace by ProductListViewModel -> enable pagination
             return View(output);
         }
 
         //[AbpMvcAuthorize(PermissionNames.Tenant.Administration_ContentManagement)]
         public async Task<ActionResult> Content()
         {
-            var modeList = await _productService.GetAll();
+            var modeList = await _productAppService.GetAllProducts();
             return View(modeList);
         }
 
@@ -101,7 +101,7 @@ namespace Don.Sportsstore.Web.Controllers
         public async Task<ActionResult> Edit(int id)
         {
             var input = new EntityDto<int>(id);
-            var output = await _productService.Get(input);
+            var output = await _productAppService.Get(input);
 
             return View(output);
         }
@@ -111,10 +111,11 @@ namespace Don.Sportsstore.Web.Controllers
         //public async Task<ActionResult> Edit(ProductDto product)
         public async Task<ActionResult> Edit(ProductListViewModel.ProductInfo viewModel)
         {
+            //weiter mit 290 - custom client validation with 
             var indsfdsf = viewModel.MapTo<CreateUpdateProductInput>();
 
             //var input = ObjectMapper.Map<UpdateProductInput>(viewModel);
-            await _productService.UpdateProduct(indsfdsf);
+            await _productAppService.UpdateProduct(indsfdsf);
             TempData["message"] = $"{viewModel.Name} has been saved";
             return RedirectToAction("Index");
         }
