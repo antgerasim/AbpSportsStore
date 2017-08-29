@@ -63,5 +63,17 @@
     <text name="CountryIsRequired" value="Please enter a country name" />
     <text name="CartNotEmpty" value="Sorry, your cart is empty!" />
     
+    <text name="SideMenu" value="SideMenu" />
+    <text name="All Products" value="All Products" />
+    <text name="Watersports" value="Watersports" />
+    <text name="Soccer" value="Soccer" />
+    <text name="Chess" value="Chess" />
+    <text name="Admin" value="Admin" />
+    <text name="AdminMenu" value="AdminMenu" />
+    <text name="Content" value="Content" />
+    <text name="Roles" value="Roles" />
+    <text name="Permissions" value="Permissions" />
+
+
   </texts>
 </localizationDictionary>

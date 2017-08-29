@@ -6,6 +6,8 @@ using Don.Sportsstore.Products.Dtos;
 
 namespace Don.Sportsstore.Products
 {
+
+    //[RemoteService(false)]//disable proxy webapi generation for testing!!https://aspnetboilerplate.com/Pages/Documents/Dynamic-Web-API#enabledisable
     public interface IProductAppService : IApplicationService
     {
         Task<ProductDto> Get(EntityDto<int> input);
@@ -14,7 +16,5 @@ namespace Don.Sportsstore.Products
         Task CreateProduct(CreateUpdateProductInput input);
         Task DeleteProduct(ProductDto input);
         Task UpdateProduct(CreateUpdateProductInput input);
-
-
     }
 }

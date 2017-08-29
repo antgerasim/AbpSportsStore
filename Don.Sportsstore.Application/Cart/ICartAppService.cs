@@ -4,6 +4,7 @@ using Don.Sportsstore.Products.Dtos;
 
 namespace Don.Sportsstore.Cart
 {
+    //[RemoteService(false)]
     public interface ICartAppService : IApplicationService
     {
         //todo add return task to enable async operations 

@@ -5,6 +5,7 @@ using Don.Sportsstore.Roles.Dto;
 
 namespace Don.Sportsstore.Roles
 {
+    //[RemoteService(false)]
     public interface IRoleAppService : IApplicationService
     {
         Task UpdateRolePermissions(UpdateRolePermissionsInput input);

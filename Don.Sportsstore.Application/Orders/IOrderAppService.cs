@@ -4,6 +4,7 @@ using Don.Sportsstore.Orders.Dto;
 
 namespace Don.Sportsstore.Orders
 {
+   // [RemoteService(false)]
     public interface IOrderAppService : IApplicationService
     {
         Task ProcessOrderFromCart(ShippingDetailsInput shippingDetails);

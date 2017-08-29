@@ -16,6 +16,7 @@ namespace Don.Sportsstore.Api
 
             Configuration.Modules.AbpWebApi().DynamicApiControllerBuilder
                 .ForAll<IApplicationService>(typeof(SportsstoreApplicationModule).Assembly, "app")
+                //.WithProxyScripts(false)//enables disables proxyscripting
                 .Build();
 
             Configuration.Modules.AbpWebApi().HttpConfiguration.Filters.Add(new HostAuthenticationFilter("Bearer"));
